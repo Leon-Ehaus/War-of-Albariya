@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <windowstate version="4.3" dataversion="20230221">
-	<window data="" class="moduleselection" pos="660,112,2200,912" />
-	<window data="" class="library" pos="1960,820,2660,1270" />
+	<window data="" class="moduleselection" pos="1012,551,2552,1351" />
+	<window data="" class="library" pos="338,448,1038,1079" />
 	<window data="" class="characterlist" pos="0,0,40,114" />
-	<window data="reference.refmanualindex@Adventures from the Potbellied Kobold" class="reference_manual" pos="763,-68,2160,1061" />
+	<window data="" class="tokenbag" pos="1157,467,1687,1107" />
+	<window data="" class="frameselect" pos="1190,637,1650,937" />
+	<window data="reference.refmanualindex@DD PHB Deluxe" class="reference_manual" pos="921,461,1921,1111" />
+	<window data="image.id-00001" class="imagewindow" pos="93,4,1442,1457" />
+	<window data="reference.imagedata.img_adventure_site_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="396,506,976,1086" />
+	<window data="image" class="masterindex" pos="1561,526,2067,1026" />
+	<window data="reference.refmanualindex" class="reference_manual" pos="590,293,1998,1262" />
+	<window data="reference.npcdata.aboleth@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
+	<window data="reference.npcdata.knight@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
+	<window data="reference.npcdata.aarakocra@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
+	<window data="reference.refmanualindex@DD MM Monster Manual" class="reference_manual" pos="1110,433,2278,1442" />
+	<window data="reference.npcdata.banshee@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00004" class="npc" pos="1190,510,1650,1060" />
+	<window data="reference.npcdata.abjurer@DD Volos Guide to Monsters" class="npc" pos="1191,511,1651,1061" />
+	<window data="quest.id-00001" class="quest" pos="1247,587,1597,987" />
+	<window data="quest.id-00002" class="quest" pos="1247,587,1597,987" />
+	<window data="quest.id-00003" class="quest" pos="1247,587,1597,987" />
+	<window data="quest.id-00004" class="quest" pos="1247,587,1597,987" />
+	<window data="npc" class="masterindex" pos="2201,621,2651,1121" />
+	<window data="quest" class="masterindex" pos="721,287,1171,787" />
+	<window data="reference.refmanualindex@War of Albariya" class="reference_manual" pos="921,461,1921,1111" />
+	<window data="reference.refmanualdata.id-00008" class="referencemanualpage" pos="1097,461,1747,1111" />
+	<window data="reference.refmanualdata.id-00050" class="referencemanualpage" pos="356,1018,1006,1668" />
+	<window data="reference.refmanualdata.id-00046" class="referencemanualpage" pos="379,482,1029,1132" />
+	<window data="reference.refmanualdata.id-00048" class="referencemanualpage" pos="346,707,996,1357" />
+	<window data="reference.refmanualdata.id-00051" class="referencemanualpage" pos="346,1044,996,1694" />
+	<window data="reference.refmanualdata.id-00049" class="referencemanualpage" pos="361,842,1011,1492" />
+	<window data="reference.refmanualdata.id-00054" class="referencemanualpage" pos="1087,1043,1737,1693" />
+	<window data="reference.refmanualdata.id-00056" class="referencemanualpage" pos="1757,1041,2407,1691" />
+	<window data="reference.npcdata.commoner@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00006" class="npc" pos="1191,511,1651,1061" />
+	<window data="reference.refmanualdata.id-00043" class="referencemanualpage" pos="310,583,960,1233" />
+	<window data="reference.refmanualdata.id-00020" class="referencemanualpage" pos="153,623,803,1273" />
+	<window data="reference.refmanualdata.id-00019" class="referencemanualpage" pos="412,531,1062,1181" />
+	<window data="encounter.id-00001" class="encounter" pos="508,472,908,1122" />
+	<window data="encounter.id-00002" class="encounter" pos="1221,461,1621,1111" />
+	<window data="npc.id-00005" class="npc" pos="300,649,760,1199" />
+	<window data="npc.id-00007" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00008" class="npc" pos="383,743,843,1293" />
+	<window data="npc.id-00009" class="npc" pos="462,621,922,1171" />
+	<window data="npc.id-00011" class="npc" pos="1236,639,1696,1189" />
+	<window data="npc.id-00012" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00013" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00010" class="npc" pos="1191,511,1651,1061" />
+	<window data="encounter" class="masterindex" pos="679,576,1129,1076" />
+	<image data="image.id-00001" class="imagewindow" control="image" view="14,55" zoom="1.77777779102325" />
+	<image data="reference.imagedata.img_adventure_site_jpg@DD Dungeon Masters Guide" class="imagewindow" control="image" view="360,-495" zoom="0.451515138149261" />
 </windowstate>
