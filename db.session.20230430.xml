@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.3" dataversion="20230221" release="8.1|CoreRPG:6">
+	<calendar>
+		<public />
+	</calendar>
+	<combattracker>
+		<public />
+	</combattracker>
+	<currencies>
+		<public />
+		<id-00001>
+			<public />
+			<name type="string">PP</name>
+			<value type="number">10</value>
+			<weight type="number">0.02</weight>
+		</id-00001>
+		<id-00002>
+			<public />
+			<name type="string">GP</name>
+			<value type="number">1</value>
+			<weight type="number">0.02</weight>
+		</id-00002>
+		<id-00003>
+			<public />
+			<name type="string">EP</name>
+			<value type="number">0.5</value>
+			<weight type="number">0.02</weight>
+		</id-00003>
+		<id-00004>
+			<public />
+			<name type="string">SP</name>
+			<value type="number">0.1</value>
+			<weight type="number">0.02</weight>
+		</id-00004>
+		<id-00005>
+			<public />
+			<name type="string">CP</name>
+			<value type="number">0.01</value>
+			<weight type="number">0.02</weight>
+		</id-00005>
+	</currencies>
+	<effects>
+		<public />
+	</effects>
+	<encounter />
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Primordial</font>
+			<name type="string">Primordial</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Aquan</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elvish</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnomish</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<name type="string">Common</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<name type="string">Thieves' Cant</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<name type="string">Druidic</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Terran</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<name type="string">Aarakocra</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Ignan</name>
+		</id-00016>
+		<id-00017>
+			<public />
+			<name type="string">Deep Speech</name>
+		</id-00017>
+		<id-00018>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Auran</name>
+		</id-00018>
+		<id-00019>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00019>
+		<id-00020>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00020>
+		<id-00021>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00021>
+		<id-00022>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarvish</name>
+		</id-00022>
+		<id-00023>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00023>
+	</languages>
+	<modifiers>
+		<public />
+	</modifiers>
+	<motd>
+		<public />
+	</motd>
+	<npc>
+		<category name="War of Albariya">
+			<id-00001>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">0</ac>
+				<actions />
+				<bonusactions />
+				<damagethreshold type="number">0</damagethreshold>
+				<hp type="number">0</hp>
+				<innatespells />
+				<lairactions />
+				<legendaryactions />
+				<locked type="number">1</locked>
+				<name type="string">Irmgart Tajir</name>
+				<reactions />
+				<size type="string">Medium</size>
+				<spells />
+				<text type="formattedtext">
+					<p />
+				</text>
+				<token type="token"></token>
+				<traits />
+				<type type="string">humanoid</type>
+				<xp type="number">0</xp>
+			</id-00001>
+		</category>
+	</npc>
+	<options>
+		<public />
+		<DDCL-custom type="string">images/decals/dnd5_decal.png@5E Assets</DDCL-custom>
+	</options>
+	<partysheet>
+		<public />
+	</partysheet>
+	<quest />
+	<settings>
+		<imagedeathmarker>
+			<id-00001>
+				<set type="string">Blood - Red</set>
+			</id-00001>
+			<id-00002>
+				<id type="string">fiend</id>
+			</id-00002>
+			<id-00003>
+				<id type="string">elemental</id>
+			</id-00003>
+			<id-00004>
+				<id type="string">ooze</id>
+			</id-00004>
+			<id-00005>
+				<id type="string">plant</id>
+				<set type="string">Blood - Green</set>
+			</id-00005>
+			<id-00006>
+				<id type="string">celestial</id>
+			</id-00006>
+			<id-00007>
+				<id type="string">fey</id>
+			</id-00007>
+			<id-00008>
+				<id type="string">dragon</id>
+			</id-00008>
+			<id-00009>
+				<id type="string">construct</id>
+				<set type="string">Blood - Black</set>
+			</id-00009>
+			<id-00010>
+				<id type="string">humanoid</id>
+			</id-00010>
+			<id-00011>
+				<id type="string">undead</id>
+				<set type="string">Blood - Violet</set>
+			</id-00011>
+			<id-00012>
+				<id type="string">aberration</id>
+			</id-00012>
+			<id-00013>
+				<id type="string">giant</id>
+			</id-00013>
+			<id-00014>
+				<id type="string">beast</id>
+			</id-00014>
+			<id-00015>
+				<id type="string">monstrosity</id>
+			</id-00015>
+		</imagedeathmarker>
+		<imagedeathmarkerset>
+			<id-00001>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/blood/blood_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/blood/blood_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/blood/blood_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/blood/blood_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/blood/blood_05.png@SmiteWorks Assets</value>
+					</id-00005>
+					<id-00006>
+						<value type="string">images/Death Markers/blood/blood_06.png@SmiteWorks Assets</value>
+					</id-00006>
+					<id-00007>
+						<value type="string">images/Death Markers/blood/blood_07.png@SmiteWorks Assets</value>
+					</id-00007>
+					<id-00008>
+						<value type="string">images/Death Markers/blood/blood_08.png@SmiteWorks Assets</value>
+					</id-00008>
+					<id-00009>
+						<value type="string">images/Death Markers/blood/blood_09.png@SmiteWorks Assets</value>
+					</id-00009>
+					<id-00010>
+						<value type="string">images/Death Markers/blood/blood_10.png@SmiteWorks Assets</value>
+					</id-00010>
+					<id-00011>
+						<value type="string">images/Death Markers/blood/blood_11.png@SmiteWorks Assets</value>
+					</id-00011>
+					<id-00012>
+						<value type="string">images/Death Markers/blood/blood_12.png@SmiteWorks Assets</value>
+					</id-00012>
+					<id-00013>
+						<value type="string">images/Death Markers/blood/blood_13.png@SmiteWorks Assets</value>
+					</id-00013>
+					<id-00014>
+						<value type="string">images/Death Markers/blood/blood_14.png@SmiteWorks Assets</value>
+					</id-00014>
+					<id-00015>
+						<value type="string">images/Death Markers/blood/blood_15.png@SmiteWorks Assets</value>
+					</id-00015>
+					<id-00016>
+						<value type="string">images/Death Markers/blood/blood_16.png@SmiteWorks Assets</value>
+					</id-00016>
+					<id-00017>
+						<value type="string">images/Death Markers/blood/blood_17.png@SmiteWorks Assets</value>
+					</id-00017>
+				</assets>
+				<name type="string">Blood - Green</name>
+				<tint type="string">FF008000</tint>
+			</id-00001>
+			<id-00002>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/blood/blood_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/blood/blood_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/blood/blood_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/blood/blood_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/blood/blood_05.png@SmiteWorks Assets</value>
+					</id-00005>
+					<id-00006>
+						<value type="string">images/Death Markers/blood/blood_06.png@SmiteWorks Assets</value>
+					</id-00006>
+					<id-00007>
+						<value type="string">images/Death Markers/blood/blood_07.png@SmiteWorks Assets</value>
+					</id-00007>
+					<id-00008>
+						<value type="string">images/Death Markers/blood/blood_08.png@SmiteWorks Assets</value>
+					</id-00008>
+					<id-00009>
+						<value type="string">images/Death Markers/blood/blood_09.png@SmiteWorks Assets</value>
+					</id-00009>
+					<id-00010>
+						<value type="string">images/Death Markers/blood/blood_10.png@SmiteWorks Assets</value>
+					</id-00010>
+					<id-00011>
+						<value type="string">images/Death Markers/blood/blood_11.png@SmiteWorks Assets</value>
+					</id-00011>
+					<id-00012>
+						<value type="string">images/Death Markers/blood/blood_12.png@SmiteWorks Assets</value>
+					</id-00012>
+					<id-00013>
+						<value type="string">images/Death Markers/blood/blood_13.png@SmiteWorks Assets</value>
+					</id-00013>
+					<id-00014>
+						<value type="string">images/Death Markers/blood/blood_14.png@SmiteWorks Assets</value>
+					</id-00014>
+					<id-00015>
+						<value type="string">images/Death Markers/blood/blood_15.png@SmiteWorks Assets</value>
+					</id-00015>
+					<id-00016>
+						<value type="string">images/Death Markers/blood/blood_16.png@SmiteWorks Assets</value>
+					</id-00016>
+					<id-00017>
+						<value type="string">images/Death Markers/blood/blood_17.png@SmiteWorks Assets</value>
+					</id-00017>
+				</assets>
+				<name type="string">Blood - Red</name>
+				<tint type="string">FF800000</tint>
+			</id-00002>
+			<id-00003>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/blood/blood_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/blood/blood_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/blood/blood_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/blood/blood_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/blood/blood_05.png@SmiteWorks Assets</value>
+					</id-00005>
+					<id-00006>
+						<value type="string">images/Death Markers/blood/blood_06.png@SmiteWorks Assets</value>
+					</id-00006>
+					<id-00007>
+						<value type="string">images/Death Markers/blood/blood_07.png@SmiteWorks Assets</value>
+					</id-00007>
+					<id-00008>
+						<value type="string">images/Death Markers/blood/blood_08.png@SmiteWorks Assets</value>
+					</id-00008>
+					<id-00009>
+						<value type="string">images/Death Markers/blood/blood_09.png@SmiteWorks Assets</value>
+					</id-00009>
+					<id-00010>
+						<value type="string">images/Death Markers/blood/blood_10.png@SmiteWorks Assets</value>
+					</id-00010>
+					<id-00011>
+						<value type="string">images/Death Markers/blood/blood_11.png@SmiteWorks Assets</value>
+					</id-00011>
+					<id-00012>
+						<value type="string">images/Death Markers/blood/blood_12.png@SmiteWorks Assets</value>
+					</id-00012>
+					<id-00013>
+						<value type="string">images/Death Markers/blood/blood_13.png@SmiteWorks Assets</value>
+					</id-00013>
+					<id-00014>
+						<value type="string">images/Death Markers/blood/blood_14.png@SmiteWorks Assets</value>
+					</id-00014>
+					<id-00015>
+						<value type="string">images/Death Markers/blood/blood_15.png@SmiteWorks Assets</value>
+					</id-00015>
+					<id-00016>
+						<value type="string">images/Death Markers/blood/blood_16.png@SmiteWorks Assets</value>
+					</id-00016>
+					<id-00017>
+						<value type="string">images/Death Markers/blood/blood_17.png@SmiteWorks Assets</value>
+					</id-00017>
+				</assets>
+				<name type="string">Blood - Brown</name>
+				<tint type="string">FF705030</tint>
+			</id-00003>
+			<id-00004>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/blood/blood_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/blood/blood_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/blood/blood_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/blood/blood_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/blood/blood_05.png@SmiteWorks Assets</value>
+					</id-00005>
+					<id-00006>
+						<value type="string">images/Death Markers/blood/blood_06.png@SmiteWorks Assets</value>
+					</id-00006>
+					<id-00007>
+						<value type="string">images/Death Markers/blood/blood_07.png@SmiteWorks Assets</value>
+					</id-00007>
+					<id-00008>
+						<value type="string">images/Death Markers/blood/blood_08.png@SmiteWorks Assets</value>
+					</id-00008>
+					<id-00009>
+						<value type="string">images/Death Markers/blood/blood_09.png@SmiteWorks Assets</value>
+					</id-00009>
+					<id-00010>
+						<value type="string">images/Death Markers/blood/blood_10.png@SmiteWorks Assets</value>
+					</id-00010>
+					<id-00011>
+						<value type="string">images/Death Markers/blood/blood_11.png@SmiteWorks Assets</value>
+					</id-00011>
+					<id-00012>
+						<value type="string">images/Death Markers/blood/blood_12.png@SmiteWorks Assets</value>
+					</id-00012>
+					<id-00013>
+						<value type="string">images/Death Markers/blood/blood_13.png@SmiteWorks Assets</value>
+					</id-00013>
+					<id-00014>
+						<value type="string">images/Death Markers/blood/blood_14.png@SmiteWorks Assets</value>
+					</id-00014>
+					<id-00015>
+						<value type="string">images/Death Markers/blood/blood_15.png@SmiteWorks Assets</value>
+					</id-00015>
+					<id-00016>
+						<value type="string">images/Death Markers/blood/blood_16.png@SmiteWorks Assets</value>
+					</id-00016>
+					<id-00017>
+						<value type="string">images/Death Markers/blood/blood_17.png@SmiteWorks Assets</value>
+					</id-00017>
+				</assets>
+				<name type="string">Blood - Violet</name>
+				<tint type="string">FF8000C0</tint>
+			</id-00004>
+			<id-00005>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/blood/blood_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/blood/blood_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/blood/blood_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/blood/blood_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/blood/blood_05.png@SmiteWorks Assets</value>
+					</id-00005>
+					<id-00006>
+						<value type="string">images/Death Markers/blood/blood_06.png@SmiteWorks Assets</value>
+					</id-00006>
+					<id-00007>
+						<value type="string">images/Death Markers/blood/blood_07.png@SmiteWorks Assets</value>
+					</id-00007>
+					<id-00008>
+						<value type="string">images/Death Markers/blood/blood_08.png@SmiteWorks Assets</value>
+					</id-00008>
+					<id-00009>
+						<value type="string">images/Death Markers/blood/blood_09.png@SmiteWorks Assets</value>
+					</id-00009>
+					<id-00010>
+						<value type="string">images/Death Markers/blood/blood_10.png@SmiteWorks Assets</value>
+					</id-00010>
+					<id-00011>
+						<value type="string">images/Death Markers/blood/blood_11.png@SmiteWorks Assets</value>
+					</id-00011>
+					<id-00012>
+						<value type="string">images/Death Markers/blood/blood_12.png@SmiteWorks Assets</value>
+					</id-00012>
+					<id-00013>
+						<value type="string">images/Death Markers/blood/blood_13.png@SmiteWorks Assets</value>
+					</id-00013>
+					<id-00014>
+						<value type="string">images/Death Markers/blood/blood_14.png@SmiteWorks Assets</value>
+					</id-00014>
+					<id-00015>
+						<value type="string">images/Death Markers/blood/blood_15.png@SmiteWorks Assets</value>
+					</id-00015>
+					<id-00016>
+						<value type="string">images/Death Markers/blood/blood_16.png@SmiteWorks Assets</value>
+					</id-00016>
+					<id-00017>
+						<value type="string">images/Death Markers/blood/blood_17.png@SmiteWorks Assets</value>
+					</id-00017>
+				</assets>
+				<name type="string">Blood - Yellow</name>
+				<tint type="string">FFB0A000</tint>
+			</id-00005>
+			<id-00006>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/blood/blood_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/blood/blood_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/blood/blood_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/blood/blood_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/blood/blood_05.png@SmiteWorks Assets</value>
+					</id-00005>
+					<id-00006>
+						<value type="string">images/Death Markers/blood/blood_06.png@SmiteWorks Assets</value>
+					</id-00006>
+					<id-00007>
+						<value type="string">images/Death Markers/blood/blood_07.png@SmiteWorks Assets</value>
+					</id-00007>
+					<id-00008>
+						<value type="string">images/Death Markers/blood/blood_08.png@SmiteWorks Assets</value>
+					</id-00008>
+					<id-00009>
+						<value type="string">images/Death Markers/blood/blood_09.png@SmiteWorks Assets</value>
+					</id-00009>
+					<id-00010>
+						<value type="string">images/Death Markers/blood/blood_10.png@SmiteWorks Assets</value>
+					</id-00010>
+					<id-00011>
+						<value type="string">images/Death Markers/blood/blood_11.png@SmiteWorks Assets</value>
+					</id-00011>
+					<id-00012>
+						<value type="string">images/Death Markers/blood/blood_12.png@SmiteWorks Assets</value>
+					</id-00012>
+					<id-00013>
+						<value type="string">images/Death Markers/blood/blood_13.png@SmiteWorks Assets</value>
+					</id-00013>
+					<id-00014>
+						<value type="string">images/Death Markers/blood/blood_14.png@SmiteWorks Assets</value>
+					</id-00014>
+					<id-00015>
+						<value type="string">images/Death Markers/blood/blood_15.png@SmiteWorks Assets</value>
+					</id-00015>
+					<id-00016>
+						<value type="string">images/Death Markers/blood/blood_16.png@SmiteWorks Assets</value>
+					</id-00016>
+					<id-00017>
+						<value type="string">images/Death Markers/blood/blood_17.png@SmiteWorks Assets</value>
+					</id-00017>
+				</assets>
+				<name type="string">Blood - Black</name>
+				<tint type="string">FF202020</tint>
+			</id-00006>
+			<id-00007>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/skull/skull_round_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/skull/skull_round_02.png@SmiteWorks Assets</value>
+					</id-00002>
+				</assets>
+				<name type="string">Skull - Round</name>
+			</id-00007>
+			<id-00008>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/blood/blood_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/blood/blood_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/blood/blood_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/blood/blood_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/blood/blood_05.png@SmiteWorks Assets</value>
+					</id-00005>
+					<id-00006>
+						<value type="string">images/Death Markers/blood/blood_06.png@SmiteWorks Assets</value>
+					</id-00006>
+					<id-00007>
+						<value type="string">images/Death Markers/blood/blood_07.png@SmiteWorks Assets</value>
+					</id-00007>
+					<id-00008>
+						<value type="string">images/Death Markers/blood/blood_08.png@SmiteWorks Assets</value>
+					</id-00008>
+					<id-00009>
+						<value type="string">images/Death Markers/blood/blood_09.png@SmiteWorks Assets</value>
+					</id-00009>
+					<id-00010>
+						<value type="string">images/Death Markers/blood/blood_10.png@SmiteWorks Assets</value>
+					</id-00010>
+					<id-00011>
+						<value type="string">images/Death Markers/blood/blood_11.png@SmiteWorks Assets</value>
+					</id-00011>
+					<id-00012>
+						<value type="string">images/Death Markers/blood/blood_12.png@SmiteWorks Assets</value>
+					</id-00012>
+					<id-00013>
+						<value type="string">images/Death Markers/blood/blood_13.png@SmiteWorks Assets</value>
+					</id-00013>
+					<id-00014>
+						<value type="string">images/Death Markers/blood/blood_14.png@SmiteWorks Assets</value>
+					</id-00014>
+					<id-00015>
+						<value type="string">images/Death Markers/blood/blood_15.png@SmiteWorks Assets</value>
+					</id-00015>
+					<id-00016>
+						<value type="string">images/Death Markers/blood/blood_16.png@SmiteWorks Assets</value>
+					</id-00016>
+					<id-00017>
+						<value type="string">images/Death Markers/blood/blood_17.png@SmiteWorks Assets</value>
+					</id-00017>
+				</assets>
+				<name type="string">Blood - Blue</name>
+				<tint type="string">FF3040C0</tint>
+			</id-00008>
+			<id-00009>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/tombstone/tombstone_round_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/tombstone/tombstone_round_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/tombstone/tombstone_round_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/tombstone/tombstone_round_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/tombstone/tombstone_round_05.png@SmiteWorks Assets</value>
+					</id-00005>
+				</assets>
+				<name type="string">Tombstone - Round</name>
+			</id-00009>
+			<id-00010>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/tombstone/tombstone_square_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/tombstone/tombstone_square_02.png@SmiteWorks Assets</value>
+					</id-00002>
+					<id-00003>
+						<value type="string">images/Death Markers/tombstone/tombstone_square_03.png@SmiteWorks Assets</value>
+					</id-00003>
+					<id-00004>
+						<value type="string">images/Death Markers/tombstone/tombstone_square_04.png@SmiteWorks Assets</value>
+					</id-00004>
+					<id-00005>
+						<value type="string">images/Death Markers/tombstone/tombstone_square_05.png@SmiteWorks Assets</value>
+					</id-00005>
+				</assets>
+				<name type="string">Tombstone - Square</name>
+			</id-00010>
+			<id-00011>
+				<assets>
+					<id-00001>
+						<value type="string">images/Death Markers/skull/skull_square_01.png@SmiteWorks Assets</value>
+					</id-00001>
+					<id-00002>
+						<value type="string">images/Death Markers/skull/skull_square_02.png@SmiteWorks Assets</value>
+					</id-00002>
+				</assets>
+				<name type="string">Skull - Square</name>
+			</id-00011>
+		</imagedeathmarkerset>
+		<tokenlight>
+			<public />
+			<id-00001>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">15</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">45</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lamp</name>
+				<tag type="string">lamp</tag>
+			</id-00001>
+			<id-00002>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">5</bright>
+				<color type="string">FFFFFCC3</color>
+				<dim type="number">10</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Candle</name>
+				<tag type="string">candle</tag>
+			</id-00002>
+			<id-00003>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">20</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">40</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Torch</name>
+				<tag type="string">torch</tag>
+			</id-00003>
+			<id-00004>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">30</bright>
+				<color type="string">FFF9FEFF</color>
+				<dim type="number">60</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lantern</name>
+				<tag type="string">lantern</tag>
+			</id-00004>
+			<id-00005>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">15</bright>
+				<color type="string">FF000000</color>
+				<dim type="number">15</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">100</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Darkness</name>
+				<tag type="string">darkness</tag>
+			</id-00005>
+			<id-00006>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">20</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">40</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Light</name>
+				<tag type="string">light</tag>
+			</id-00006>
+		</tokenlight>
+	</settings>
+</root>

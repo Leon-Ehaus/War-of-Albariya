@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.4" dataversion="20230601">
+	<npc>
+		<id-00005>
+			<locked type="number">1</locked>
+			<text type="formattedtext">
+				<h>Commoner</h>
+				<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+				<p />
+				<h>Lagermeisterin der Abenteuergilde</h>
+				<linklist>
+					<link class="imagewindow" recordname="image.id-00002">Mechthild Mukhtarie</link>
+				</linklist>
+			</text>
+		</id-00005>
+		<id-00006>
+			<locked type="number">1</locked>
+			<text type="formattedtext">
+				<h>Commoner</h>
+				<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+				<p />
+				<h>Questgeber</h>
+				<linklist>
+					<link class="imagewindow" recordname="image.id-00004">Blancheflour Eamil</link>
+				</linklist>
+			</text>
+		</id-00006>
+		<id-00007>
+			<locked type="number">1</locked>
+			<text type="formattedtext">
+				<h>Commoner</h>
+				<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+				<p />
+				<h>Vorstand der Abenteuergilde</h>
+				<linklist>
+					<link class="imagewindow" recordname="image.id-00005">Grethe Batal</link>
+				</linklist>
+			</text>
+		</id-00007>
+		<id-00008>
+			<locked type="number">1</locked>
+			<text type="formattedtext">
+				<h>Commoner</h>
+				<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+				<p />
+				<h>Leiterin des Forschungsinstituts</h>
+				<linklist>
+					<link class="imagewindow" recordname="image.id-00006">Marquard Albahith</link>
+				</linklist>
+			</text>
+		</id-00008>
+		<id-00010>
+			<locked type="number">1</locked>
+			<text type="formattedtext">
+				<h>Commoner</h>
+				<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+				<p />
+				<h>Oberst-General des Milit&#228;rs</h>
+				<linklist>
+					<link class="imagewindow" recordname="image.id-00003">Othilie Alqayid</link>
+				</linklist>
+			</text>
+		</id-00010>
+	</npc>
+</root>

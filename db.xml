@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root version="4.3" dataversion="20230221" release="8.1|CoreRPG:6">
+<root version="4.4" dataversion="20230601" release="8.1|CoreRPG:6">
 	<calendar>
 		<public />
 	</calendar>
 	<combattracker>
 		<public />
+		<list>
+			<public />
+		</list>
+		<round type="number">0</round>
 	</combattracker>
 	<currencies>
 		<public />
@@ -67,9 +71,9 @@
 	<export>
 		<anyruleset type="number">0</anyruleset>
 		<author type="string">Leon &amp; Brunner</author>
-		<displayname type="string">War of Albariya</displayname>
-		<file type="string">War of Albariya</file>
-		<name type="string">War of Albariya</name>
+		<displayname type="string">Albariya</displayname>
+		<file type="string">Albariya</file>
+		<name type="string">Albariya</name>
 		<playervisible type="number">0</playervisible>
 		<readonly type="number">0</readonly>
 		<recordtypes>
@@ -218,10 +222,123 @@
 				</bytype>
 			</vehicle>
 		</recordviews>
-		<thumbnail type="string">C:\\Users\\leone\\Documents\\FantasyGrounds\\Fantasy Grounds\\campaigns\\War of Albariya\\images\\WeirdHorse.png</thumbnail>
+		<thumbnail type="string">C:\\Users\\leone\\Documents\\FantasyGrounds\\Fantasy Grounds\\campaigns\\War of Albariya\\images\\Sterne.png</thumbnail>
 		<tokens />
 	</export>
 	<image>
+		<id-00002>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<color>#66FFFFFF</color>
+				<layers>
+					<layer>
+						<name>0900a9500aacf210c05654c3393d0c00--dnd-halfling-female-halfling.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/0900a9500aacf210c05654c3393d0c00--dnd-halfling-female-halfling.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Mechthild Mukhtarie</name>
+		</id-00002>
+		<id-00003>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<color>#66FFFFFF</color>
+				<layers>
+					<layer>
+						<name>18f5b13b72e59f2570cf436b790c840a.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/18f5b13b72e59f2570cf436b790c840a.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Othilie Alqayid</name>
+			<nonid_name type="string">Oberst-General</nonid_name>
+		</id-00003>
+		<id-00004>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<color>#66FFFFFF</color>
+				<layers>
+					<layer>
+						<name>421_1516304395.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/421_1516304395.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Blancheflour Eamil</name>
+		</id-00004>
+		<id-00005>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<color>#66FFFFFF</color>
+				<layers>
+					<layer>
+						<name>852ff169fe7bf1ad7aa2d4d33b7b787a.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/852ff169fe7bf1ad7aa2d4d33b7b787a.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Grethe Batal</name>
+		</id-00005>
+		<id-00006>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<color>#66FFFFFF</color>
+				<layers>
+					<layer>
+						<name>Gydd_nephret.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/Gydd_nephret.png</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Marquard Albahith</name>
+		</id-00006>
+		<id-00007>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<color>#66FFFFFF</color>
+				<layers>
+					<layer>
+						<name>Flugblatt.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/Flugblatt.png</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Flugblatt</name>
+		</id-00007>
+		<id-00008>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<color>#66FFFFFF</color>
+				<layers>
+					<layer>
+						<name>Questbaord.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/Questbaord.png</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Questbaord</name>
+		</id-00008>
 		<category name="War of Albariya">
 			<id-00001>
 				<image type="image">
@@ -1282,6 +1399,29 @@
 							</linklist>
 						</text>
 					</id-00002>
+					<id-00004>
+						<blocktype type="string">image</blocktype>
+						<caption type="string">Questbaord</caption>
+						<frame type="string">picture</frame>
+						<image type="image">
+							<allowplayerdrawing>on</allowplayerdrawing>
+							<color>#66FFFFFF</color>
+							<layers>
+								<layer>
+									<name>Questbaord.png</name>
+									<id>0</id>
+									<parentid>-1</parentid>
+									<type>image</type>
+									<bitmap>campaign/images/Questbaord.png</bitmap>
+								</layer>
+							</layers>
+						</image>
+						<imagelink type="windowreference">
+							<class>imagewindow</class>
+							<recordname>image.id-00008</recordname>
+						</imagelink>
+						<order type="number">3</order>
+					</id-00004>
 				</blocks>
 				<name type="string">Aktueller Aushang</name>
 			</id-00006>
@@ -2002,6 +2142,29 @@
 						<order type="number">1</order>
 						<text type="string">Flugblatt in Mintiqa Kitaba</text>
 					</id-00004>
+					<id-00005>
+						<blocktype type="string">image</blocktype>
+						<caption type="string">Flugblatt</caption>
+						<frame type="string">picture</frame>
+						<image type="image">
+							<allowplayerdrawing>on</allowplayerdrawing>
+							<color>#66FFFFFF</color>
+							<layers>
+								<layer>
+									<name>Flugblatt.png</name>
+									<id>0</id>
+									<parentid>-1</parentid>
+									<type>image</type>
+									<bitmap>campaign/images/Flugblatt.png</bitmap>
+								</layer>
+							</layers>
+						</image>
+						<imagelink type="windowreference">
+							<class>imagewindow</class>
+							<recordname>image.id-00007</recordname>
+						</imagelink>
+						<order type="number">5</order>
+					</id-00005>
 				</blocks>
 				<name type="string">Flugblatt</name>
 			</id-00040>
@@ -3346,6 +3509,9 @@
 		</refmanualindex>
 	</reference>
 	<settings>
+		<sound>
+			<ss />
+		</sound>
 		<tokenlight>
 			<public />
 			<id-00001>

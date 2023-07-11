@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<windowstate version="4.3" dataversion="20230221">
+<windowstate version="4.4" dataversion="20230601">
 	<window data="" class="moduleselection" pos="1012,551,2552,1351" />
 	<window data="" class="library" pos="338,448,1038,1079" />
 	<window data="" class="characterlist" pos="0,0,40,114" />
-	<window data="" class="tokenbag" pos="1157,467,1687,1107" />
+	<window data="" class="tokenbag" pos="1540,636,2070,1276" />
 	<window data="" class="frameselect" pos="1190,637,1650,937" />
 	<window data="reference.refmanualindex@DD PHB Deluxe" class="reference_manual" pos="921,461,1921,1111" />
-	<window data="image.id-00001" class="imagewindow" pos="93,4,1442,1457" />
+	<window data="image.id-00001" class="imagewindow" pos="92,3,1441,1457" />
 	<window data="reference.imagedata.img_adventure_site_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="396,506,976,1086" />
 	<window data="image" class="masterindex" pos="1561,526,2067,1026" />
-	<window data="reference.refmanualindex" class="reference_manual" pos="590,293,1998,1262" />
+	<window data="reference.refmanualindex" class="reference_manual" pos="433,96,1841,1061" />
 	<window data="reference.npcdata.aboleth@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
 	<window data="reference.npcdata.knight@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
 	<window data="reference.npcdata.aarakocra@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
@@ -21,9 +21,9 @@
 	<window data="quest.id-00002" class="quest" pos="1247,587,1597,987" />
 	<window data="quest.id-00003" class="quest" pos="1247,587,1597,987" />
 	<window data="quest.id-00004" class="quest" pos="1247,587,1597,987" />
-	<window data="npc" class="masterindex" pos="2201,621,2651,1121" />
-	<window data="quest" class="masterindex" pos="721,287,1171,787" />
-	<window data="reference.refmanualindex@War of Albariya" class="reference_manual" pos="921,461,1921,1111" />
+	<window data="npc" class="masterindex" pos="2200,620,2650,1120" />
+	<window data="quest" class="masterindex" pos="720,287,1170,787" />
+	<window data="reference.refmanualindex@War of Albariya" class="reference_manual" pos="1361,401,2361,1051" />
 	<window data="reference.refmanualdata.id-00008" class="referencemanualpage" pos="1097,461,1747,1111" />
 	<window data="reference.refmanualdata.id-00050" class="referencemanualpage" pos="356,1018,1006,1668" />
 	<window data="reference.refmanualdata.id-00046" class="referencemanualpage" pos="379,482,1029,1132" />
@@ -33,7 +33,7 @@
 	<window data="reference.refmanualdata.id-00054" class="referencemanualpage" pos="1087,1043,1737,1693" />
 	<window data="reference.refmanualdata.id-00056" class="referencemanualpage" pos="1757,1041,2407,1691" />
 	<window data="reference.npcdata.commoner@DD MM Monster Manual" class="npc" pos="1191,511,1651,1061" />
-	<window data="npc.id-00006" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00006" class="npc" pos="1190,510,1650,1060" />
 	<window data="reference.refmanualdata.id-00043" class="referencemanualpage" pos="310,583,960,1233" />
 	<window data="reference.refmanualdata.id-00020" class="referencemanualpage" pos="153,623,803,1273" />
 	<window data="reference.refmanualdata.id-00019" class="referencemanualpage" pos="412,531,1062,1181" />
@@ -48,6 +48,33 @@
 	<window data="npc.id-00013" class="npc" pos="1191,511,1651,1061" />
 	<window data="npc.id-00010" class="npc" pos="1191,511,1651,1061" />
 	<window data="encounter" class="masterindex" pos="679,576,1129,1076" />
-	<image data="image.id-00001" class="imagewindow" control="image" view="14,55" zoom="1.77777779102325" />
+	<window data="reference.racedata.dragonborn.traits.subrace@DD PHB Deluxe" class="reference_racialtrait" pos="1247,611,2143,1382" />
+	<window data="reference.racedata.dragonborn@DD PHB Deluxe" class="reference_race" pos="1247,611,1597,961" />
+	<window data="reference.refmanualdata.id-00009" class="referencemanualpage" pos="1097,461,1747,1111" />
+	<window data="npc.id-00006@War of Albariya" class="npc" pos="632,347,1092,897" />
+	<window data="image.id-00002" class="imagewindow" pos="418,872,998,1452" />
+	<window data="npc.id-00005@War of Albariya" class="npc" pos="1642,904,2102,1454" />
+	<window data="npc.id-00009@War of Albariya" class="npc" pos="481,301,941,851" />
+	<window data="image.id-00004" class="imagewindow" pos="1130,497,1710,1077" />
+	<window data="npc.id-00012@War of Albariya" class="npc" pos="1190,510,1650,1060" />
+	<window data="npc.id-00004@War of Albariya" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00010@War of Albariya" class="npc" pos="674,554,1134,1104" />
+	<window data="image.id-00003" class="imagewindow" pos="1303,769,1883,1349" />
+	<window data="npc.id-00011@War of Albariya" class="npc" pos="1191,511,1651,1061" />
+	<window data="npc.id-00008@War of Albariya" class="npc" pos="402,669,862,1219" />
+	<window data="npc.id-00007@War of Albariya" class="npc" pos="896,190,1356,740" />
+	<window data="image.id-00005" class="imagewindow" pos="1147,691,1727,1271" />
+	<window data="image.id-00006" class="imagewindow" pos="1131,497,1711,1077" />
+	<window data="image.id-00007" class="imagewindow" pos="999,853,1579,1433" />
+	<window data="image.id-00008" class="imagewindow" pos="399,840,979,1420" />
+	<window data="combattracker" class="combattracker_host" pos="1097,537,1747,1037" />
+	<image data="image.id-00001" class="imagewindow" control="image" view="14,55" zoom="1.77922081947327" />
 	<image data="reference.imagedata.img_adventure_site_jpg@DD Dungeon Masters Guide" class="imagewindow" control="image" view="360,-495" zoom="0.451515138149261" />
+	<image data="image.id-00002" class="imagewindow" control="image" view="0,0" zoom="0.297554343938828" />
+	<image data="image.id-00004" class="imagewindow" control="image" view="0,0" zoom="0.348171710968018" />
+	<image data="image.id-00003" class="imagewindow" control="image" view="0,0" zoom="0.547500014305115" />
+	<image data="image.id-00005" class="imagewindow" control="image" view="0,0" zoom="0.405555546283722" />
+	<image data="image.id-00006" class="imagewindow" control="image" view="0,0" zoom="0.440643876791" />
+	<image data="image.id-00007" class="imagewindow" control="image" view="0,0" zoom="0.279374986886978" />
+	<image data="image.id-00008" class="imagewindow" control="image" view="0,0" zoom="0.0612758807837963" />
 </windowstate>

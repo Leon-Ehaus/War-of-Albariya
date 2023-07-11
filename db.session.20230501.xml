@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.3" dataversion="20230221" release="8.1|CoreRPG:6">
+	<calendar>
+		<public />
+	</calendar>
+	<combattracker>
+		<public />
+	</combattracker>
+	<currencies>
+		<public />
+		<id-00001>
+			<public />
+			<name type="string">PP</name>
+			<value type="number">10</value>
+			<weight type="number">0.02</weight>
+		</id-00001>
+		<id-00002>
+			<public />
+			<name type="string">GP</name>
+			<value type="number">1</value>
+			<weight type="number">0.02</weight>
+		</id-00002>
+		<id-00003>
+			<public />
+			<name type="string">EP</name>
+			<value type="number">0.5</value>
+			<weight type="number">0.02</weight>
+		</id-00003>
+		<id-00004>
+			<public />
+			<name type="string">SP</name>
+			<value type="number">0.1</value>
+			<weight type="number">0.02</weight>
+		</id-00004>
+		<id-00005>
+			<public />
+			<name type="string">CP</name>
+			<value type="number">0.01</value>
+			<weight type="number">0.02</weight>
+		</id-00005>
+	</currencies>
+	<effects>
+		<public />
+	</effects>
+	<encounter />
+	<export>
+		<anyruleset type="number">0</anyruleset>
+		<displayname type="string">War of Albariya</displayname>
+		<file type="string">War of Albariya</file>
+		<name type="string">War of Albariya</name>
+		<playervisible type="number">0</playervisible>
+		<readonly type="number">0</readonly>
+		<recordtypes>
+			<background>
+				<entries />
+				<select type="number">0</select>
+			</background>
+			<battle>
+				<entries />
+				<select type="number">0</select>
+			</battle>
+			<battlerandom>
+				<entries />
+				<select type="number">0</select>
+			</battlerandom>
+			<charsheet>
+				<entries />
+				<select type="number">0</select>
+			</charsheet>
+			<class>
+				<entries />
+				<select type="number">0</select>
+			</class>
+			<class_specialization>
+				<entries />
+				<select type="number">0</select>
+			</class_specialization>
+			<class_spell_list>
+				<entries />
+				<select type="number">0</select>
+			</class_spell_list>
+			<effect>
+				<entries />
+				<select type="number">0</select>
+			</effect>
+			<feat>
+				<entries />
+				<select type="number">0</select>
+			</feat>
+			<image>
+				<entries />
+				<select type="number">1</select>
+			</image>
+			<item>
+				<entries />
+				<select type="number">0</select>
+			</item>
+			<itemtemplate>
+				<entries />
+				<select type="number">0</select>
+			</itemtemplate>
+			<modifier>
+				<entries />
+				<select type="number">0</select>
+			</modifier>
+			<npc>
+				<entries />
+				<select type="number">0</select>
+			</npc>
+			<quest>
+				<entries />
+				<select type="number">0</select>
+			</quest>
+			<race>
+				<entries />
+				<select type="number">0</select>
+			</race>
+			<race_subrace>
+				<entries />
+				<select type="number">0</select>
+			</race_subrace>
+			<referencemanualpage>
+				<entries />
+				<select type="number">1</select>
+			</referencemanualpage>
+			<skill>
+				<entries />
+				<select type="number">0</select>
+			</skill>
+			<spell>
+				<entries />
+				<select type="number">0</select>
+			</spell>
+			<story>
+				<entries />
+				<select type="number">0</select>
+			</story>
+			<storytemplate>
+				<entries />
+				<select type="number">0</select>
+			</storytemplate>
+			<table>
+				<entries />
+				<select type="number">0</select>
+			</table>
+			<treasureparcel>
+				<entries />
+				<select type="number">0</select>
+			</treasureparcel>
+			<vehicle>
+				<entries />
+				<select type="number">0</select>
+			</vehicle>
+		</recordtypes>
+		<recordviews>
+			<item>
+				<armor>
+					<select type="number">0</select>
+				</armor>
+				<gear>
+					<select type="number">0</select>
+				</gear>
+				<vehiclecomponent>
+					<select type="number">0</select>
+				</vehiclecomponent>
+				<vehiclecomponentupgrade>
+					<select type="number">0</select>
+				</vehiclecomponentupgrade>
+				<vehicledrawn>
+					<select type="number">0</select>
+				</vehicledrawn>
+				<vehiclemount>
+					<select type="number">0</select>
+				</vehiclemount>
+				<vehiclewater>
+					<select type="number">0</select>
+				</vehiclewater>
+				<weapon>
+					<select type="number">0</select>
+				</weapon>
+			</item>
+			<npc>
+				<bycr>
+					<select type="number">0</select>
+				</bycr>
+				<byletter>
+					<select type="number">0</select>
+				</byletter>
+				<bytype>
+					<select type="number">0</select>
+				</bytype>
+			</npc>
+			<vehicle>
+				<bytype>
+					<select type="number">0</select>
+				</bytype>
+			</vehicle>
+		</recordviews>
+		<tokens />
+	</export>
+	<image>
+		<category name="War of Albariya">
+			<id-00001>
+				<image type="image">
+					<allowplayerdrawing>on</allowplayerdrawing>
+					<color>#66FFFFFF</color>
+					<layers>
+						<layer>
+							<name>Stadtkarte.png</name>
+							<id>0</id>
+							<parentid>-9</parentid>
+							<type>image</type>
+							<bitmap>campaign/images/Stadtkarte.png</bitmap>
+						</layer>
+						<layer>
+							<name>Leuchtturm</name>
+							<id>1</id>
+							<parentid>-8</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00002@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,72,-103,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Kaserne</name>
+							<id>2</id>
+							<parentid>-7</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00004@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,88,-85,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Abenteurergilde</name>
+							<id>3</id>
+							<parentid>-6</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00005@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-62,-146,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Schmiede</name>
+							<id>4</id>
+							<parentid>-5</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00006@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-116,-115,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Senat</name>
+							<id>5</id>
+							<parentid>-4</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00007@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,0,-188,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Verbotene Insel</name>
+							<id>6</id>
+							<parentid>-3</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00008@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-166,-6,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Waisenhaus</name>
+							<id>7</id>
+							<parentid>-2</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00009@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,67,115,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Riesentotnekopf</name>
+							<id>8</id>
+							<parentid>-1</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00010@War of Albariya</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-57,102,0,1</matrix>
+						</layer>
+					</layers>
+				</image>
+				<locked type="number">1</locked>
+				<name type="string">Stadtkarte</name>
+			</id-00001>
+		</category>
+	</image>
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Primordial</font>
+			<name type="string">Primordial</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Aquan</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elvish</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnomish</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<name type="string">Common</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<name type="string">Thieves' Cant</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<name type="string">Druidic</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Terran</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<name type="string">Aarakocra</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Ignan</name>
+		</id-00016>
+		<id-00017>
+			<public />
+			<name type="string">Deep Speech</name>
+		</id-00017>
+		<id-00018>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Auran</name>
+		</id-00018>
+		<id-00019>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00019>
+		<id-00020>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00020>
+		<id-00021>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00021>
+		<id-00022>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarvish</name>
+		</id-00022>
+		<id-00023>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00023>
+	</languages>
+	<modifiers>
+		<public />
+	</modifiers>
+	<motd>
+		<public />
+	</motd>
+	<npc>
+		<category name="War of Albariya">
+			<id-00001>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">0</ac>
+				<actions />
+				<bonusactions />
+				<damagethreshold type="number">0</damagethreshold>
+				<hp type="number">0</hp>
+				<innatespells />
+				<lairactions />
+				<legendaryactions />
+				<locked type="number">1</locked>
+				<name type="string">Irmgart Tajir</name>
+				<reactions />
+				<size type="string">Medium</size>
+				<spells />
+				<text type="formattedtext">
+					<p />
+				</text>
+				<token type="token"></token>
+				<traits />
+				<type type="string">humanoid</type>
+				<xp type="number">0</xp>
+			</id-00001>
+			<id-00002>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">0</ac>
+				<actions />
+				<bonusactions />
+				<damagethreshold type="number">0</damagethreshold>
+				<hp type="number">0</hp>
+				<innatespells />
+				<lairactions />
+				<legendaryactions />
+				<name type="string">Nachtmahr</name>
+				<reactions />
+				<spells />
+				<text type="formattedtext">
+					<p />
+				</text>
+				<token type="token"></token>
+				<traits />
+				<xp type="number">0</xp>
+			</id-00002>
+		</category>
+	</npc>
+	<options>
+		<public />
+		<DDCL-custom type="string">images/decals/dnd5_decal.png@5E Assets</DDCL-custom>
+	</options>
+	<partysheet>
+		<public />
+	</partysheet>
+	<quest>
+		<category name="War of Albariya">
+			<id-00001>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Die Spieler m&#252;ssen initial einen Bereich kurz nach Kuppelgrenze von jeglichen Monstern und gef&#228;hrlichen Pflanzen befreien und im Anschluss die Holzf&#228;ller w&#228;hrend der Rohdung &#34;verteidigen&#34;</p>
+				</gmnotes>
+				<locked type="number">0</locked>
+				<name type="string">Rohdung unterstützen</name>
+				<xp type="number">0</xp>
+			</id-00001>
+			<id-00002>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Die Bergbauer m&#252;ssen au&#223;erhalb der Kuppel in die Wurml&#246;cher um dort nach Alyakut zu suchen und dies zur&#252;ck nach Neu-Galea zu bringen.</p>
+				</gmnotes>
+				<locked type="number">1</locked>
+				<name type="string">Bergbauer verteidigen</name>
+				<xp type="number">0</xp>
+			</id-00002>
+			<id-00003>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Klassische Rettungsmission, zB Holzf&#228;ller etc. Auf dem R&#252;ckweg stellt sich heraus, dass die Holzf&#228;ller sich einen Parasiten o. &#228;. eingefangen haben. Dieser wird zwar beim durchschreiten der Barriere neutralisiert, das wissen die Spieler aber nicht zwangsweise bzw k&#246;nnen sich nicht sicher sein. daher k&#246;nnte es zu einem moralischen konflikt kommen, ob die Holzf&#228;ller zur&#252;ck ins dorf gebracht werden, oder ob das zu riskant ist</p>
+				</gmnotes>
+				<locked type="number">1</locked>
+				<name type="string">Parasiten</name>
+				<xp type="number">0</xp>
+			</id-00003>
+			<id-00004>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Vor einiger Zeit versuchten Holzf&#228;ller und Abenteurer, im Wald ein Supply-Lager zu errichten, um die Arbeit zu erleichtern. Pl&#246;tzlich kehrte die Gruppe jedoch nicht mehr zur&#252;ck, daher wird vermutet, dass sie einem Monster zum Opfer gefallen sind. Die Spieler sollen die Lage kl&#228;ren, und aus dem Supply Lager bergen, was noch &#252;brig ist.</p>
+					<p>Hintergrund:</p>
+					<p>Die B&#228;ume sind ebenfalls von der Magie durchzogen, und damit auch das Holz. Das Supplylager ist ein Geb&#228;ude, das au&#223;erhalb der Kuppelgrenzen errichtet wurde. Die Magie &#34;erweckte das Haus zum Leben&#34;, t&#246;tete die Holzf&#228;ller, und muss nun von den Spielern bezwungen werden.</p>
+				</gmnotes>
+				<locked type="number">1</locked>
+				<name type="string">Holzbauten</name>
+				<xp type="number">0</xp>
+			</id-00004>
+		</category>
+	</quest>
+	<reference>
+		<refmanualdata>
+			<id-00001>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">image</blocktype>
+						<caption type="string">Stadtkarte</caption>
+						<frame type="string">picture</frame>
+						<image type="image">
+							<allowplayerdrawing>on</allowplayerdrawing>
+							<color>#66FFFFFF</color>
+							<layers>
+								<layer>
+									<name>Stadtkarte.png</name>
+									<id>0</id>
+									<parentid>-1</parentid>
+									<type>image</type>
+									<bitmap>campaign/images/Stadtkarte.png</bitmap>
+								</layer>
+							</layers>
+						</image>
+						<imagelink type="windowreference">
+							<class>imagewindow</class>
+							<recordname>image.id-00001</recordname>
+						</imagelink>
+						<order type="number">1</order>
+					</id-00001>
+				</blocks>
+				<name type="string">Map</name>
+			</id-00001>
+			<id-00003>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">1</order>
+						<text type="formattedtext">
+							<p>- Jeder leistet seinen Beitrag, daf&#252;r wird alles was zum Leben n&#246;tig ist gestellt (Essen, Schlafplatz etc)&#160;</p>
+							<p>- Stadt wird von einem Artefakt aus [[Magie|magischem Kristall]] besch&#252;tzt, das eine Barriere erschafft, die den Monstern die Magie raubt</p>
+							<p>- Die Barriere kann ausgeschaltet werden, das ist jedoch ohne leicht ersichtlichen grund sau gef&#228;hrlich</p>
+							<p>- Das Artefakt versorgt auch das Portal mit Energie. Daher kann das Portal nur alle 30 Tage ge&#246;ffnet werden, um die Barriere nicht zu gef&#228;hrden</p>
+						</text>
+					</id-00001>
+				</blocks>
+				<locked type="number">1</locked>
+				<name type="string">Organisation</name>
+			</id-00003>
+		</refmanualdata>
+		<refmanualindex>
+			<chapters>
+				<id-00001>
+					<name type="string">War of Albariya</name>
+					<order type="number">1</order>
+					<subchapters>
+						<id-00001>
+							<name type="string">Neu-Galea</name>
+							<order type="number">1</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">map</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00001</recordname>
+									</listlink>
+									<name type="string">Map</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">leistet daher essen versorgt zum zu hrlich organisation alles ffnet kann - wird eine n das ge tzt r raubt tage beitrag die jedoch magie etc nur energie mit leicht portal alle hrden nicht barriere sau leben aus ohne ersichtlichen stadt seinen schlafplatz erschafft auch einem um gef magischem monstern jeder den tig daf gestellt besch werden artefakt kristall ausgeschaltet von grund ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00003</recordname>
+									</listlink>
+									<name type="string">Organisation</name>
+									<order type="number">2</order>
+								</id-00002>
+							</refpages>
+						</id-00001>
+					</subchapters>
+				</id-00001>
+			</chapters>
+			<locked type="number">1</locked>
+		</refmanualindex>
+	</reference>
+	<settings>
+		<tokenlight>
+			<public />
+			<id-00001>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">15</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">45</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lamp</name>
+				<tag type="string">lamp</tag>
+			</id-00001>
+			<id-00002>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">5</bright>
+				<color type="string">FFFFFCC3</color>
+				<dim type="number">10</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Candle</name>
+				<tag type="string">candle</tag>
+			</id-00002>
+			<id-00003>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">20</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">40</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Torch</name>
+				<tag type="string">torch</tag>
+			</id-00003>
+			<id-00004>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">30</bright>
+				<color type="string">FFF9FEFF</color>
+				<dim type="number">60</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lantern</name>
+				<tag type="string">lantern</tag>
+			</id-00004>
+			<id-00005>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">15</bright>
+				<color type="string">FF000000</color>
+				<dim type="number">15</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">100</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Darkness</name>
+				<tag type="string">darkness</tag>
+			</id-00005>
+			<id-00006>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">20</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">40</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Light</name>
+				<tag type="string">light</tag>
+			</id-00006>
+		</tokenlight>
+	</settings>
+</root>

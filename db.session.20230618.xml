@@ -1,0 +1,3578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.3" dataversion="20230221" release="8.1|CoreRPG:6">
+	<calendar>
+		<public />
+	</calendar>
+	<combattracker>
+		<public />
+	</combattracker>
+	<currencies>
+		<public />
+		<id-00001>
+			<public />
+			<name type="string">PP</name>
+			<value type="number">10</value>
+			<weight type="number">0.02</weight>
+		</id-00001>
+		<id-00002>
+			<public />
+			<name type="string">GP</name>
+			<value type="number">1</value>
+			<weight type="number">0.02</weight>
+		</id-00002>
+		<id-00003>
+			<public />
+			<name type="string">EP</name>
+			<value type="number">0.5</value>
+			<weight type="number">0.02</weight>
+		</id-00003>
+		<id-00004>
+			<public />
+			<name type="string">SP</name>
+			<value type="number">0.1</value>
+			<weight type="number">0.02</weight>
+		</id-00004>
+		<id-00005>
+			<public />
+			<name type="string">CP</name>
+			<value type="number">0.01</value>
+			<weight type="number">0.02</weight>
+		</id-00005>
+	</currencies>
+	<effects>
+		<public />
+	</effects>
+	<encounter>
+		<id-00001>
+			<name type="string">Nachtmahr</name>
+			<text type="formattedtext">
+				<linklist>
+					<link class="referencemanualpage" recordname="reference.refmanualdata.id-00030">Nachtmahr</link>
+				</linklist>
+			</text>
+		</id-00001>
+		<id-00002>
+			<name type="string">Verbotene Insel</name>
+			<text type="formattedtext">
+				<p>- Wird von Forschern des Forschungsinstituts f&#252;r gef&#228;hrliche Experimente genutzt</p>
+				<p />
+				<p>Idee:</p>
+				<p>Hier residiert eine reiche Familie aus der Au&#223;enwelt, die ihren Aufenthalt privat finanziert. Durch die Wissenschaftler haben sie Kenntnisse &#252;ber Alyakut erlangt, bzw. &#252;ber die Wirkung die deren Konsum hervorruft. Auf der Insel werden nun Experimente an Menschen durchfgef&#252;hrt, um die negativen Folgen zu eliminieren, und die Kristalle als Waffe nutzen zu k&#246;nnen.</p>
+				<p>Evtl entf&#252;hren sie daf&#252;r B&#252;rger, die sich au&#223;erhalb der Stadt aufhalten (Holzf&#228;ller, Miner, Abenteurer). Da sterben sowieso so oft Leute, dass es ganz normal ist, wenn Menschen nicht mehr in die Stadt zur&#252;ckkehren - daher f&#228;llt das nicht auf.</p>
+				<p>Eventuell ist der Nachtmahr auch von hier entflohen; bin nicht sicher, was hier am besten ist.</p>
+				<p>M&#246;glicher Oneshot: Die Spieler werden auf einer Mission hierhin entf&#252;hrt, m&#252;ssen nun entkommen und decken dabei die b&#246;sen Machenschaften auf.</p>
+			</text>
+		</id-00002>
+	</encounter>
+	<export>
+		<anyruleset type="number">0</anyruleset>
+		<author type="string">Leon &amp; Brunner</author>
+		<displayname type="string">Albariya</displayname>
+		<file type="string">Albariya</file>
+		<name type="string">Albariya</name>
+		<playervisible type="number">0</playervisible>
+		<readonly type="number">0</readonly>
+		<recordtypes>
+			<background>
+				<entries />
+				<select type="number">1</select>
+			</background>
+			<battle>
+				<entries />
+				<select type="number">1</select>
+			</battle>
+			<battlerandom>
+				<entries />
+				<select type="number">1</select>
+			</battlerandom>
+			<charsheet>
+				<entries />
+				<select type="number">1</select>
+			</charsheet>
+			<class>
+				<entries />
+				<select type="number">1</select>
+			</class>
+			<class_specialization>
+				<entries />
+				<select type="number">1</select>
+			</class_specialization>
+			<class_spell_list>
+				<entries />
+				<select type="number">1</select>
+			</class_spell_list>
+			<effect>
+				<entries />
+				<select type="number">1</select>
+			</effect>
+			<feat>
+				<entries />
+				<select type="number">1</select>
+			</feat>
+			<image>
+				<entries />
+				<select type="number">1</select>
+			</image>
+			<item>
+				<entries />
+				<select type="number">1</select>
+			</item>
+			<itemtemplate>
+				<entries />
+				<select type="number">1</select>
+			</itemtemplate>
+			<modifier>
+				<entries />
+				<select type="number">1</select>
+			</modifier>
+			<npc>
+				<entries />
+				<select type="number">1</select>
+			</npc>
+			<quest>
+				<entries />
+				<select type="number">1</select>
+			</quest>
+			<race>
+				<entries />
+				<select type="number">1</select>
+			</race>
+			<race_subrace>
+				<entries />
+				<select type="number">1</select>
+			</race_subrace>
+			<referencemanualpage>
+				<entries />
+				<select type="number">1</select>
+			</referencemanualpage>
+			<skill>
+				<entries />
+				<select type="number">1</select>
+			</skill>
+			<spell>
+				<entries />
+				<select type="number">1</select>
+			</spell>
+			<story>
+				<entries />
+				<select type="number">1</select>
+			</story>
+			<storytemplate>
+				<entries />
+				<select type="number">1</select>
+			</storytemplate>
+			<table>
+				<entries />
+				<select type="number">1</select>
+			</table>
+			<treasureparcel>
+				<entries />
+				<select type="number">1</select>
+			</treasureparcel>
+			<vehicle>
+				<entries />
+				<select type="number">1</select>
+			</vehicle>
+		</recordtypes>
+		<recordviews>
+			<item>
+				<armor>
+					<select type="number">0</select>
+				</armor>
+				<gear>
+					<select type="number">0</select>
+				</gear>
+				<vehiclecomponent>
+					<select type="number">0</select>
+				</vehiclecomponent>
+				<vehiclecomponentupgrade>
+					<select type="number">0</select>
+				</vehiclecomponentupgrade>
+				<vehicledrawn>
+					<select type="number">0</select>
+				</vehicledrawn>
+				<vehiclemount>
+					<select type="number">0</select>
+				</vehiclemount>
+				<vehiclewater>
+					<select type="number">0</select>
+				</vehiclewater>
+				<weapon>
+					<select type="number">0</select>
+				</weapon>
+			</item>
+			<npc>
+				<bycr>
+					<select type="number">0</select>
+				</bycr>
+				<byletter>
+					<select type="number">0</select>
+				</byletter>
+				<bytype>
+					<select type="number">0</select>
+				</bytype>
+			</npc>
+			<vehicle>
+				<bytype>
+					<select type="number">0</select>
+				</bytype>
+			</vehicle>
+		</recordviews>
+		<thumbnail type="string">C:\\Users\\leone\\Documents\\FantasyGrounds\\Fantasy Grounds\\campaigns\\War of Albariya\\images\\Sterne.png</thumbnail>
+		<tokens />
+	</export>
+	<image>
+		<id-00002>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>0900a9500aacf210c05654c3393d0c00--dnd-halfling-female-halfling.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/0900a9500aacf210c05654c3393d0c00--dnd-halfling-female-halfling.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Mechthild Mukhtarie</name>
+		</id-00002>
+		<id-00003>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>18f5b13b72e59f2570cf436b790c840a.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/18f5b13b72e59f2570cf436b790c840a.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Othilie Alqayid</name>
+			<nonid_name type="string">Oberst-General</nonid_name>
+		</id-00003>
+		<id-00004>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>421_1516304395.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/421_1516304395.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Blancheflour Eamil</name>
+		</id-00004>
+		<id-00005>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>852ff169fe7bf1ad7aa2d4d33b7b787a.jpg</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/852ff169fe7bf1ad7aa2d4d33b7b787a.jpg</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Grethe Batal</name>
+		</id-00005>
+		<id-00006>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>Gydd_nephret.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/Gydd_nephret.png</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Marquard Albahith</name>
+		</id-00006>
+		<id-00007>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>Flugblatt.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/Flugblatt.png</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Flugblatt</name>
+		</id-00007>
+		<id-00008>
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>Questbaord.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/Questbaord.png</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<name type="string">Questbaord</name>
+		</id-00008>
+		<category name="War of Albariya">
+			<id-00001>
+				<image type="image">
+					<allowplayerdrawing>on</allowplayerdrawing>
+					<color>#66FFFFFF</color>
+					<layers>
+						<layer>
+							<name>Stadtkarte.png</name>
+							<id>0</id>
+							<parentid>-14</parentid>
+							<type>image</type>
+							<bitmap>campaign/images/Stadtkarte.png</bitmap>
+						</layer>
+						<layer>
+							<name>Waisenhaus</name>
+							<id>1</id>
+							<parentid>-13</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00008</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,69,113,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Kaserne</name>
+							<id>2</id>
+							<parentid>-12</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00009</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,87,-85,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Abenteuergilde</name>
+							<id>3</id>
+							<parentid>-11</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00010</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-62,-144,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Schmiede</name>
+							<id>4</id>
+							<parentid>-10</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00011</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-114,-118,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Senat</name>
+							<id>5</id>
+							<parentid>-9</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00012</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-2,-191,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Leuchtturm</name>
+							<id>6</id>
+							<parentid>-8</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00013</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,73,-104,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Verbotene Insel</name>
+							<id>7</id>
+							<parentid>-7</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00014</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-169,-10,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Riesentotenkopf</name>
+							<id>8</id>
+							<parentid>-6</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00015</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-57,103,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Stadttor</name>
+							<id>9</id>
+							<parentid>-5</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00016</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,103,153,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Stadttor</name>
+							<id>10</id>
+							<parentid>-4</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00016</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,184,-186,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Stadttor</name>
+							<id>11</id>
+							<parentid>-3</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00016</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-21,-236,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Hafen</name>
+							<id>12</id>
+							<parentid>-2</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00045</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-4,-37,0,1</matrix>
+						</layer>
+						<layer>
+							<name>Handwerksgilde</name>
+							<id>13</id>
+							<parentid>-1</parentid>
+							<type>shortcut</type>
+							<shortcut>
+								<class>referencemanualpage</class>
+								<record>reference.refmanualdata.id-00046</record>
+							</shortcut>
+							<matrix>1,0,0,0,0,1,0,0,0,0,1,0,-2,155,0,1</matrix>
+						</layer>
+					</layers>
+				</image>
+				<locked type="number">1</locked>
+				<name type="string">Stadtkarte</name>
+			</id-00001>
+		</category>
+	</image>
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Primordial</font>
+			<name type="string">Primordial</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Aquan</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elvish</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnomish</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<name type="string">Common</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<name type="string">Thieves' Cant</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<name type="string">Druidic</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Terran</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<name type="string">Aarakocra</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Ignan</name>
+		</id-00016>
+		<id-00017>
+			<public />
+			<name type="string">Deep Speech</name>
+		</id-00017>
+		<id-00018>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Auran</name>
+		</id-00018>
+		<id-00019>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00019>
+		<id-00020>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00020>
+		<id-00021>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00021>
+		<id-00022>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarvish</name>
+		</id-00022>
+		<id-00023>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00023>
+	</languages>
+	<modifiers>
+		<public />
+	</modifiers>
+	<motd>
+		<public />
+	</motd>
+	<npc>
+		<category name="War of Albariya">
+			<id-00004>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<name type="string">Margarethe Sayaad</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<p>Vorstand des Fischerverbands</p>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00004>
+			<id-00005>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<locked type="number">1</locked>
+				<name type="string">Mechthild Mukhtarie</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Lagermeisterin der Abenteuergilde</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00005>
+			<id-00006>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<locked type="number">1</locked>
+				<name type="string">Blancheflour Eamil</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Questgeber</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00006>
+			<id-00007>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<locked type="number">1</locked>
+				<name type="string">Grethe Batal</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Vorstand der Abenteuergilde</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00007>
+			<id-00008>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<locked type="number">1</locked>
+				<name type="string">Marquard Albahith</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Leiterin des Forschungsinstituts</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00008>
+			<id-00009>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<name type="string">Irmgart Tajir</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Leiterin der Handwerksgilde</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00009>
+			<id-00010>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<name type="string">Othilie Alqayid</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Oberst-General des Milit&#228;rs</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00010>
+			<id-00011>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<name type="string">Petrissa Eam</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Vertraterin des Milit&#228;rs im Senat</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00011>
+			<id-00012>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<name type="string">Clementia Kahim</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<h>Vorsitzende des Kirchenrats</h>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00012>
+			<id-00013>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</desc>
+						<name type="string">Club</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">any alignment</alignment>
+				<bonusactions />
+				<cr type="string">0</cr>
+				<damagethreshold type="number">0</damagethreshold>
+				<hd type="string">(1d8)</hd>
+				<hp type="number">4</hp>
+				<innatespells />
+				<lairactions />
+				<languages type="string">any one language (usually Common)</languages>
+				<legendaryactions />
+				<name type="string">Konrat Mazar</name>
+				<reactions />
+				<senses type="string">passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">30 ft.</speed>
+				<spells />
+				<text type="formattedtext">
+					<h>Commoner</h>
+					<p>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+					<p />
+					<p>Vorstand des Bauernverbands</p>
+				</text>
+				<token type="token">tokens/C.png@DD MM Monster Manual</token>
+				<traits />
+				<type type="string">humanoid (any race)</type>
+				<xp type="number">10</xp>
+			</id-00013>
+		</category>
+	</npc>
+	<options>
+		<public />
+		<DDCL-custom type="string">images/decals/dnd5_decal.png@5E Assets</DDCL-custom>
+	</options>
+	<partysheet>
+		<public />
+	</partysheet>
+	<quest>
+		<category name="War of Albariya">
+			<id-00001>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Die Spieler m&#252;ssen initial einen Bereich kurz nach Kuppelgrenze von jeglichen Monstern und gef&#228;hrlichen Pflanzen befreien und im Anschluss die Holzf&#228;ller w&#228;hrend der Rohdung &#34;verteidigen&#34;</p>
+				</gmnotes>
+				<name type="string">Rohdung unterstützen</name>
+				<xp type="number">0</xp>
+			</id-00001>
+			<id-00002>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Die Bergbauer m&#252;ssen au&#223;erhalb der Kuppel in die Wurml&#246;cher um dort nach Alyakut zu suchen und dies zur&#252;ck nach Neu-Galea zu bringen.</p>
+				</gmnotes>
+				<locked type="number">1</locked>
+				<name type="string">Bergbauer verteidigen</name>
+				<xp type="number">0</xp>
+			</id-00002>
+			<id-00003>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Klassische Rettungsmission, zB Holzf&#228;ller etc. Auf dem R&#252;ckweg stellt sich heraus, dass die Holzf&#228;ller sich einen Parasiten o. &#228;. eingefangen haben. Dieser wird zwar beim durchschreiten der Barriere neutralisiert, das wissen die Spieler aber nicht zwangsweise bzw k&#246;nnen sich nicht sicher sein. daher k&#246;nnte es zu einem moralischen konflikt kommen, ob die Holzf&#228;ller zur&#252;ck ins dorf gebracht werden, oder ob das zu riskant ist</p>
+				</gmnotes>
+				<locked type="number">1</locked>
+				<name type="string">Parasiten</name>
+				<xp type="number">0</xp>
+			</id-00003>
+			<id-00004>
+				<description type="formattedtext">
+					<p />
+				</description>
+				<gmnotes type="formattedtext">
+					<p>Vor einiger Zeit versuchten Holzf&#228;ller und Abenteurer, im Wald ein Supply-Lager zu errichten, um die Arbeit zu erleichtern. Pl&#246;tzlich kehrte die Gruppe jedoch nicht mehr zur&#252;ck, daher wird vermutet, dass sie einem Monster zum Opfer gefallen sind. Die Spieler sollen die Lage kl&#228;ren, und aus dem Supply Lager bergen, was noch &#252;brig ist.</p>
+					<p>Hintergrund:</p>
+					<p>Die B&#228;ume sind ebenfalls von der Magie durchzogen, und damit auch das Holz. Das Supplylager ist ein Geb&#228;ude, das au&#223;erhalb der Kuppelgrenzen errichtet wurde. Die Magie &#34;erweckte das Haus zum Leben&#34;, t&#246;tete die Holzf&#228;ller, und muss nun von den Spielern bezwungen werden.</p>
+				</gmnotes>
+				<locked type="number">1</locked>
+				<name type="string">Holzbauten</name>
+				<xp type="number">0</xp>
+			</id-00004>
+		</category>
+	</quest>
+	<reference>
+		<refmanualdata>
+			<id-00001>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">image</blocktype>
+						<caption type="string">Stadtkarte</caption>
+						<frame type="string">picture</frame>
+						<image type="image">
+							<allowplayerdrawing>on</allowplayerdrawing>
+							<color>#66FFFFFF</color>
+							<layers>
+								<layer>
+									<name>Stadtkarte.png</name>
+									<id>0</id>
+									<parentid>-1</parentid>
+									<type>image</type>
+									<bitmap>campaign/images/Stadtkarte.png</bitmap>
+								</layer>
+							</layers>
+						</image>
+						<imagelink type="windowreference">
+							<class>imagewindow</class>
+							<recordname>image.id-00001</recordname>
+						</imagelink>
+						<order type="number">1</order>
+					</id-00001>
+				</blocks>
+				<name type="string">Map</name>
+			</id-00001>
+			<id-00003>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Jeder leistet seinen Beitrag, daf&#252;r wird alles was zum Leben n&#246;tig ist gestellt (Essen, Schlafplatz etc)&#160;</p>
+							<p>- Stadt wird von einem Artefakt aus magischem Kristall besch&#252;tzt, das eine Barriere erschafft, die den Monstern die Magie raubt</p>
+							<p>- Die Barriere kann ausgeschaltet werden, das ist jedoch ohne leicht ersichtlichen grund sau gef&#228;hrlich</p>
+							<p>- Das Artefakt versorgt auch das Portal mit Energie. Daher kann das Portal nur alle 30 Tage ge&#246;ffnet werden, um die Barriere nicht zu gef&#228;hrden</p>
+						</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Generelle Organisation</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Organisation</name>
+			</id-00003>
+			<id-00004>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">2</order>
+						<text type="string">Historie</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">3</order>
+						<text type="formattedtext">
+							<p>- Vor ca 400-500 Jahren durch eine Gro&#223;macht eingenommen</p>
+							<p>- Gro&#223;macht hat als Staatssprache Deutsch (Common)</p>
+							<p>- Gro&#223;macht ist vor ca 200 Jahren in viele einzelne K&#246;nigreiche zerfallen</p>
+							<p>- Nach Zerfall in eigenes K&#246;nigreich, R&#252;ckbesinnung auf alte Sprache (Kitaba)</p>
+							<p>-&#62; Wird jetzt als Gelehrtenspache verwendet</p>
+							<p>- Nachnamen sind h&#228;ufig noch in Kitaba Vornamen mei&#223;tens auf Deutsch</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">1</order>
+						<text type="formattedtext">
+							<p>Sprache: Kitaba (stark angelehnt an Arabisch)</p>
+						</text>
+					</id-00003>
+				</blocks>
+				<name type="string">Mintiqa Kitaba</name>
+			</id-00004>
+			<id-00005>
+				<blocks />
+				<name type="string">Platzhalter</name>
+			</id-00005>
+			<id-00006>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Aktueller Aushang</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<linklist>
+								<link class="quest" recordname="quest.id-00002">Quest: Bergbauer verteidigen</link>
+								<link class="quest" recordname="quest.id-00004">Quest: Holzbauten</link>
+								<link class="quest" recordname="quest.id-00003">Quest: Parasiten</link>
+								<link class="quest" recordname="quest.id-00001">Quest: Rohdung unterst&#252;tzen</link>
+							</linklist>
+						</text>
+					</id-00002>
+					<id-00004>
+						<blocktype type="string">image</blocktype>
+						<caption type="string">Questbaord</caption>
+						<frame type="string">picture</frame>
+						<image type="image">
+							<allowplayerdrawing>on</allowplayerdrawing>
+							<layers>
+								<layer>
+									<name>Questbaord.png</name>
+									<id>0</id>
+									<parentid>-1</parentid>
+									<type>image</type>
+									<bitmap>campaign/images/Questbaord.png</bitmap>
+								</layer>
+							</layers>
+						</image>
+						<imagelink type="windowreference">
+							<class>imagewindow</class>
+							<recordname>image.id-00008</recordname>
+						</imagelink>
+						<order type="number">3</order>
+					</id-00004>
+				</blocks>
+				<name type="string">Aktueller Aushang</name>
+			</id-00006>
+			<id-00007>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Düsterer Wald</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Düsterer Wald</name>
+			</id-00007>
+			<id-00008>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Aufgrund der feindlichen Natur der Welt, werden keine Minderj&#228;hrigen durch das Portal gebracht (evtl. m&#252;ssen wir noch festlegen, was genau &#34;Minderj&#228;hrig&#34; bedeuted). Dennoch k&#246;nnen nat&#252;rlich in der Welt neue Kinder geboren werden. Verlassen die Eltern die Welt, nehmen sie ihre Kinder nat&#252;rlich mit. Aufgrund der hohen Mortalit&#228;tsrate ist es jedoch nicht un&#252;blich, dass die Eltern unerwartet sterben und die Kinder zu vollwaisen werden. Da sie in der Monsterwelt geboren wurden, haben sie keine Verbindung zur Au&#223;enwelt, und w&#228;ren dort auf sich allein gestellt. Daher werden sie in einem Waisenhaus untergebracht, bis sie alt genug sind, selbst einen Beruf zu ergreifen.</p>
+						</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<p>Idee: Es k&#246;nnte ja sein, dass die Menschen, die in dieser Welt geboren werden, immun gegen die negativen Effekte des Konsums von [[Magie|magischen Kristallen]] sind. Das k&#246;nnte ein guter zuk&#252;nftiger Plothook sein, um Antagonisten zu z&#252;chten, oder eine Motivation f&#252;r Antagonisten zu finden, &#34;b&#246;ses&#34; zu tun. Ich schlage vor, dass es zu Beginn niemanden gibt, der &#252;ber diesen Umstand bescheid wei&#223;, sondern dass dieses Wissen erst von den Spielern oder den Machthabern der [[Verbotene Insel|verbotenen Insel]] herausgefunden werden muss.</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">singletext</blocktype>
+						<frame type="string">yellow</frame>
+						<order type="number">3</order>
+						<text type="formattedtext">
+							<p>Wir haben glaub ich in diesen Dokumenten noch nicht festgehalten, wie lange die Menschheit schon in dieser Welt Fu&#223; gefasst hat. Das hat auf diesen Artikel einen gr&#246;&#223;eren Einfluss, da davon abh&#228;ngt, wie alt die &#228;ltesten Kinder aus dem Waisenhaus sein k&#246;nnen. Ich h&#228;tte mir einen Wert von mindestens 20 Jahren vorgestellt - dann sind die ersten bereits erwachsen.</p>
+						</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Waisenhaus</text>
+					</id-00004>
+				</blocks>
+				<name type="string">Waisenhaus</name>
+			</id-00008>
+			<id-00009>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Kaserne</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Die Kaserne befindet sich in der Burg direkt neben dem Leuchtturm</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Kaserne</name>
+			</id-00009>
+			<id-00010>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Gildenhaus der Abenteurergilde</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Das Questboard befindet sich am Eingang des Gildenhauses</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Abenteuergilde</name>
+			</id-00010>
+			<id-00011>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Schmiede</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Gro&#223;e Schmiede mit mehreren Schmiedpersonen; assoziiert mit der Handwerksgilde</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Schmiede</name>
+			</id-00011>
+			<id-00012>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Senatsgebäude</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Befindet sich zwischen der Burg und dem linken unteren Stadttor</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Senat</name>
+			</id-00012>
+			<id-00013>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Leuchtturm</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Befindet sich in der Burg</p>
+							<p>- Leuchtet aufs Meer</p>
+							<p>- Leuchtet als Ankerpunkt f&#252;r Abenteurer ins Landesinnere</p>
+							<p>- Betrieben mit Feuer</p>
+							<p>- Im Inneren des H&#252;gels befindet sich der Artefaktraum: &#8220;Keller&#8221; des Leuchtturms</p>
+							<p>- evtl Uhr mit Tageszeit und Tag des &#34;Monats&#34;</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Leuchtturm</name>
+			</id-00013>
+			<id-00014>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Verbotene Insel</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Wird von Forschern des [[Forschungsinstitut|Forschungsinstituts]] f&#252;r gef&#228;hrliche Experimente genutzt</p>
+							<p />
+							<linklist>
+								<link class="encounter" recordname="encounter.id-00002">Story: Verbotene Insel</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Verbotene Insel</name>
+			</id-00014>
+			<id-00015>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Riesentotenkopf</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Riesentotenkopf</name>
+			</id-00015>
+			<id-00016>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Stadttore von Neu-Galea</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Neu-Galea hat drei Stadttore</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Stadttor</name>
+			</id-00016>
+			<id-00017>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Bauwerke der Fadayiy</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Unter Neu-Galea eine gr&#246;&#223;tenteils verlassene Stadt der Fadayiy</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Bauwerke der Fadayiy</name>
+			</id-00017>
+			<id-00018>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Andere Dörfer</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Andere Dörfer</name>
+			</id-00018>
+			<id-00019>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Gebirge in der Ferne</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Gebirge in der Ferne</name>
+			</id-00019>
+			<id-00020>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Magie</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">3</order>
+						<text type="formattedtext">
+							<p>Die &#34;Kristalle&#34;, bzw. Magie kann sich in drei Formen als Materie manifestieren:</p>
+							<p>- Fl&#252;ssiges, silbriges Blut in Monstern, bzw. &#34;Harz&#34; in Pflanzen</p>
+							<p>- Minderwertige Kristalle, nachdem das Blut ausgetrocknet ist (dauert ca. 6 Stunden)</p>
+							<p>- Hochwertige Kristalle, die aus den Urmonstern entstanden sind (analog zu Erd&#246;l)</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">header</blocktype>
+						<order type="number">2</order>
+						<text type="string">Physische Formen</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">header</blocktype>
+						<order type="number">4</order>
+						<text type="string">Konsum</text>
+					</id-00004>
+					<id-00005>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">5</order>
+						<text type="formattedtext">
+							<p>Wer die Kristalle in irgendeiner Form konsumiert, wird von der Magie befallen, und letztendlich verschlungen. Ein Mensch kann so jedoch auch eine immense Macht erlangen, die ihm von der Magie verliehen wird.</p>
+							<p>Der Konsum kann auf mehrere Arten erfolgen:</p>
+							<p />
+							<p>
+								<b>Essen von Tieren oder Pflanzen; bzw. direktes trinken des Blutes:</b>
+							</p>
+							<p>Die Magie gelangt nur langsam in den K&#246;rper, daher treten auch Symptome nur langsam auf. Bei h&#228;ufigem Konsum erlangt der Konsument mit der Zeit immer mehr magische Kr&#228;fte, wird jedoch auch von der Magie verdorben. Schlie&#223;lich mutiert er zu einem Monster wie dem [[Nachtmahr]]. Beim durchschreiten der Barriere wird die Magie neutralisiert; je st&#228;rker der Mensch befallen war, desto weniger ist noch von seinem urspr&#252;nglichen Selbst vorhanden.</p>
+							<p />
+							<p>
+								<b>Blut wird direkt in die Blutbahn gespritzt, oder unreine Kristalle werden als Line gezogen </b>(evtl sind auch unterschiedliche Effekte f&#252;r diese beiden Konsumformen m&#246;glich):</p>
+							<p>Die Magie gelangt sehr schnell in den K&#246;rper. Der Konsument erlangt f&#252;r einige Stunden immense magische Kr&#228;fte, die dann jedoch wieder abklingen. Die Wirkung ist also im Gegensatz zum Essen nur tempor&#228;r, da der Kristall schneller vom K&#246;rper verarbeitet wird. Daf&#252;r ruft diese Form des Konsums ab dem ersten Mal immense Entzugserscheinungen hervor. Das durchschreiten der Barriere beendet die Wirkung, lindert jedoch nicht die Entzugserscheinungen.</p>
+							<p />
+							<p>
+								<b>Konsum der hochwertigen Kristalle:</b>
+							</p>
+							<p>Gottgleiche Kr&#228;fte. Je nach St&#228;rke des Konsumenten halten diese f&#252;r ein paar Sekunden, bis zu wenigen Minuten an. Danach folgt der sofortige Tod des Konsumenten.</p>
+						</text>
+					</id-00005>
+					<id-00006>
+						<blocktype type="string">header</blocktype>
+						<order type="number">6</order>
+						<text type="string">Interaktionen mit Latifa Albariya</text>
+					</id-00006>
+					<id-00007>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">7</order>
+						<text type="formattedtext">
+							<p>- polt Magie, die die Kuppel passiert um (aber nicht zur&#252;ck)</p>
+							<p>- Umgepolte Magie entl&#228;d sich unregelm&#228;&#223;ig (1-2 mal pro &#34;Monat&#34;) in unerkl&#228;rlichen Effekten z.b.:</p>
+							<p>- Objekte fangen an zu schweben wird initial dem [[Nachtmahr]] zugeschrieben</p>
+							<p>- Umgepolte Magie bewirkt, dass der Fluss Bergauf ins Landesinnere flie&#223;t</p>
+							<p>- Wenn Umgepolte Magie und &#34;normalgepolte&#34; Magie aufeinenader treffen tritt eine extrem explosive reaktion auf</p>
+							<p>- Wenn minderwertige Kristalle umgepolt werden, steigen sie als Staub auf und verlassen die Kuppel wieder -&#62; zus&#228;tzliche komische Wetterph&#228;nome</p>
+						</text>
+					</id-00007>
+				</blocks>
+				<name type="string">Magie</name>
+			</id-00020>
+			<id-00021>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Natürliche Höhlen</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Natürliche Höhlen</name>
+			</id-00021>
+			<id-00022>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Ozean</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>L&#228;ngeres Schwimmen im Wasser au&#223;erhalb der Kuppel f&#252;hrt zu abgeschw&#228;chten Symptomen wie beim Konsum der Magie, da das Wasser fl&#252;ssige Magie enth&#228;lt.</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Ozean</name>
+			</id-00022>
+			<id-00023>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Steppe</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Steppe</name>
+			</id-00023>
+			<id-00024>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Wurmlöcher</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Wurmlöcher</name>
+			</id-00024>
+			<id-00025>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Wüste</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Wüste</name>
+			</id-00025>
+			<id-00026>
+				<blocks />
+				<name type="string">Karte</name>
+			</id-00026>
+			<id-00028>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Fadayiy</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Faction griff vor einigen Jahren die Menschenwelt an; dabei wurde jedoch die faction zerschlagen. Heute glaubt man, dass nur noch einzelne Individuen durch die Welt streifen, oder lose Splittergruppen existieren</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Fadayiy</name>
+			</id-00028>
+			<id-00029>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Korrumpierter Drache</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Ein Drache ist damals beim initialen Angriff nach Albariya gelangt und ist &#228;hnlich zum Nachtmahr durch den Einfluss der Magie [[Magie|ver&#228;ndert]] worden.</p>
+							<p />
+							<linklist>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00019">Nest im Gebirge in der Ferne</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Korrumpierter Drache</name>
+			</id-00029>
+			<id-00030>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>
+								<i>Erster Pitch; muss besser ausgearbeitet werden</i>
+							</p>
+							<p>Das Albtraummonster ist ein erster Miniantagonist/Miniboss, der bereits in den ersten Abenteuern immer wieder erw&#228;hnt wird, bis er schlie&#223;lich besiegt werden muss.</p>
+						</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">header</blocktype>
+						<order type="number">3</order>
+						<text type="string">Das Monster als Miniantagonist</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<p>In der Stadt geht das Ger&#252;cht von einem albtraumhaften Monster um. Ihm werden allerlei F&#228;higkeiten nachgesagt (die es teilweise vielleicht auch wirklich hat). Manche sind sogar nachts aus dem Schlaf hochgeschreckt, und haben das Monster mit funkelnden Augen in der Ecke lauern sehen, bevor es in den Schatten verschwand. Daher geht in der Stadt das Ger&#252;cht um, dass das Monster immun gegen die Barriere ist (=&#62; stellt sich als falsch heraus, &#34;pflanzt&#34; aber schon fr&#252;h den Gedanken in den K&#246;pfen der Spieler ein, dass es eventuell solche Monster geben k&#246;nnte).</p>
+							<p />
+							<p>Das Monster ist aktuell die Furcht Nummer 1, die Stadtbewohner vor dem Wald haben. Jeder kennt es, und die furchteinfl&#246;&#223;enden Geschichten, die sich um es ranken. M&#246;glicherweise warnen NPCs die Spieler eindringlich vor diesem Monster, bevor sie sich in den Wald auf eine Mission begeben. Andere Spieler finden auf ihrem Weg vielleicht Leichen, die in einer Art zugerichtet sind, die auf das Monster zur&#252;ckzuf&#252;hren sein k&#246;nnte. So kommen die Spieler bereits fr&#252;h mit dem Mythos um das Monster in Ber&#252;hrung. Es tritt in den ersten Abenteuern nicht auf, lauert aber als Gefahr in den W&#228;ldern, vor der die Spieler im Idealfall Angst/Respekt haben.</p>
+							<p />
+							<p>Irgendwann wird das Monster dann besiegt. Entweder gibt es eine dedizierte Quest, in der um das Beseitigen des Monsters gebeten wird, oder die Spieler treffen durch Zufall auf das Monster. Verlieren/Sterben die Spieler, kann es eine andere Heldengruppe versuchen. Je nach dem, wie die Spieler vorgehen, k&#246;nnen sie mehr oder weniger um das Geheimnis des Monsters aufdecken.</p>
+						</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Nachtmahr</text>
+					</id-00004>
+					<id-00005>
+						<blocktype type="string">header</blocktype>
+						<order type="number">5</order>
+						<text type="string">Das Geheimnis hinter dem Nachtmahr</text>
+					</id-00005>
+					<id-00006>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">6</order>
+						<text type="formattedtext">
+							<p>Das Monster ist eigentlich ein Bewohner der Stadt (zB ein Abenteurer), der sich zu weit von der Stadt weggewagt hat, und daher tagelang in der Wildnis ausharren musste. Um zu &#252;berleben, a&#223; er Pflanzen, oder vielleicht sogar kleinere Tiere/Monster oder Kadaver. Dabei wurde er von der Magie der Welt befallen, und mutierte so schlie&#223;lich zu dem Monster. Er ist jetzt nicht mehr er selbst und k&#246;rperlich so entstellt, dass er nicht mehr als Mensch zu erkennen ist - hat aber eine humanoide Form. Kommunikation mit ihm ist nicht m&#246;glich.</p>
+							<p>Sollten die Spieler es tats&#228;chlich schaffen, ihn in die Kuppel zur&#252;ckzubringen, k&#246;nnte er geheilt werden - er w&#252;rde dann vermutlich f&#252;r einige Wochen im Koma liegen, und sich schlie&#223;lich aber wieder erholen. Er wird jedoch nie wieder er selbst sein.</p>
+							<p>Der offensichtliche, und auch geplante Weg ist allerdings, dass die Spieler das Monster t&#246;ten.</p>
+							<p>Mehr zum Befall durch die Magie ist unter Magie zu finden.</p>
+						</text>
+					</id-00006>
+					<id-00007>
+						<blocktype type="string">header</blocktype>
+						<order type="number">7</order>
+						<text type="string">Fähigkeiten</text>
+					</id-00007>
+					<id-00008>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">8</order>
+						<text type="formattedtext">
+							<p>Albtraumhafte F&#228;higkeiten. Vllt gibt es hier eine passende Vorlage, an der man sich orientieren kann.</p>
+						</text>
+					</id-00008>
+					<id-00009>
+						<blocktype type="string">header</blocktype>
+						<order type="number">9</order>
+						<text type="string">Glossareintrag</text>
+					</id-00009>
+					<id-00010>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">10</order>
+						<text type="formattedtext">
+							<p>Das Wesen ist von humanoider Gestalt. Es bewegt sich auf zwei Beinen, kann sich jedoch auch &#252;ber kurze Distanzen teleportieren, um direkt vor oder hinter einem Feind zu erscheinen.</p>
+							<p />
+							<p>
+								<i>Bei Untersuchung des K&#246;rpers: </i>Die inneren Organe sind denen eines Menschen erschreckend &#228;hnlich. Das ist in dieser Welt ein bisher einzigartiger Fall. <b>TODO: weiter Einzelheiten des entstellten K&#246;rpers beschreiben, sobald ein Design feststeht</b></p>
+							<p />
+							<p>
+								<i>Nach erster Konfrontation: </i>
+								<b>TODO: Beschreibung der F&#228;higkeiten des Monsters; nachdem die Spieler diese bezeugen konnten.</b>
+							</p>
+						</text>
+					</id-00010>
+				</blocks>
+				<name type="string">Nachtmahr</name>
+			</id-00030>
+			<id-00031>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Nachtschatten</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Sichtungen nur bei Nacht -&#62; l&#228;sst auf Lichtsensibilit&#228;t schlie&#223;en</p>
+							<p>- Vergraben sich am Tag</p>
+							<p>- Gehen in der Nacht auf die Jagd</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Nachtschatten</name>
+			</id-00031>
+			<id-00032>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">"Gewöhnliche" Parasiten</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Parasiten, die ihr Opfer befallen und im Blutstrom Magie absaugen.</p>
+							<p>Bei Menschen bzw generell magielosen Wesen graben die Parasiten durch den ganzen K&#246;rper um Magie zu finden und verlassen diesen nach einer Weile, da sie nichts gefunden haben. Meistens mit verh&#228;renden Auswirkungen am Wirt.</p>
+							<p />
+							<p>Stark verbreitet -&#62; Bei jedem Verlassen der Kuppel m&#252;ssen quasi alle Spieler einen Consave w&#252;rfeln um den folgen der Parasiten zu widerstehen</p>
+							<p />
+							<p>Evtl eine Pflanze o.&#196;. als Gegenmittel.</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Parasiten</name>
+			</id-00032>
+			<id-00033>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Tarnmonster</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Monster, das die Magie nutzen kann um sich wie eine Pflanze oder ein Objekt aussehen zu lassen (analog zu Mimic)</p>
+							<p>Das Monster &#34;jagt&#34; indem es sich als Pflanze tarnt und Pflanzenfresser somit &#252;berrascht und frisst.</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Tarnmonster</name>
+			</id-00033>
+			<id-00034>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Urmonster</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Gigantische Monster, die vor Millionen von Jahren &#252;ber die Welt herrschten und schlie&#223;lich von einer Katastrophe ausgel&#246;scht wurden. Dabei entstanden Mutationen, die bis heute noch existieren. Andere Monster wurden im Erdinneren eingeschlossen, und schlummern dort bis heute.</p>
+							<p>Das Blut der Monster sickerte in die Erde, und erschaffte so die Alyakut.</p>
+							<p />
+							<p>Die Urmonster enthalten eine so hoch konzentrierte Magie, dass sie der Barriere standh&#228;lt.</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Urmonster</name>
+			</id-00034>
+			<id-00035>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Latifa Albariya</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Kuppelartefakt</p>
+							<p>- Ben&#246;tigt regelm&#228;&#223;ig [[Alyakut]] um wieder &#34;Energie&#34; aufzuladen</p>
+							<p>- kann alle 30 Tage ein Portal erzeugen</p>
+							<p />
+							<linklist>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00020">F&#252;r interaktionen mit der lokalen Magie</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Latifa Albariya</name>
+			</id-00035>
+			<id-00036>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Alyakut</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Kristallisierte Form der Magie dieser Sph&#228;re.</p>
+							<p>Jedes Lebeswesen tr&#228;gt diese Energie in sich; wenn ein Lebewesen stirbt sickert die Magie als Blut in die Erde. Nach einigen Tagen &#34;trocknet&#34; das Blut und kristallisiert in einer minderwertigen Form des Kristalles.</p>
+							<p>Vor vielen millionen Jahren herrschten gigantische Monster &#252;ber die Welt. Als diese starben, sickerte deren Blut in die Erde, und wurde &#252;ber die Jahre unter immensem Druck zu dem reinen Kristall gepresst, das heute bekannt ist.</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">header</blocktype>
+						<order type="number">3</order>
+						<text type="string">Als Powersource</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<p>Der Kristall als Powersource f&#252;r die Barriere verwendet und muss daher regelm&#228;&#223;ig organisiert werden. Die Kristalle enthalten eine so hoch konzentrierte Magie, dass sie der Barriere standh&#228;lt. Die minderwertigen Kristalle verpuffen jedoch.</p>
+						</text>
+					</id-00004>
+				</blocks>
+				<name type="string">Alyakut</name>
+			</id-00036>
+			<id-00037>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Abgeschlossene Quests</text>
+					</id-00001>
+				</blocks>
+				<name type="string">Abgeschlossene Quests</name>
+			</id-00037>
+			<id-00038>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Fehlgeschlagene Quests</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">2</order>
+						<text type="string">Nicht angenommene Quests</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Fehlgeschlagene Quests</name>
+			</id-00038>
+			<id-00039>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Genereller Aushang</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>
+								<i>Das Forschungsinstitut bittet um Proben jeglicher besonderer Pflanzen und jeglicher aufgefundenen Tiere</i>
+							</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Genereller Aushang</name>
+			</id-00039>
+			<id-00040>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">3</order>
+						<text type="string">Draft des Inhalts</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<p>Du willst ein Held sein?</p>
+							<p />
+							<p>Der K&#246;nig braucht deine Hilfe!</p>
+							<p />
+							<p>Viele erinnern sich mit Schrecken an den Angriff der Fadayiy vor einigen Jahren, der viele Leben gekostet hat, und verheerende Sch&#228;den verursachte. Doch jetzt ist die Zeit gekommen, zur&#252;ckzuschlagen! Das K&#246;nigreich hat schon lange in der Welt der Monster, die heute ehrfurchtsvoll Albariya genannt wird, Fu&#223; gefasst. Doch nur mit deiner Hilfe k&#246;nnen wir diese Chance in einen Gewinn f&#252;r das gesamte K&#246;nigreich verwandeln!</p>
+							<p />
+							<p>Du bist stark, unerschrocken, und k&#252;hn?</p>
+							<p>Der Gedanke an wilde Monster erregt deinen Ehrgeiz, statt dich einzusch&#252;chtern?</p>
+							<p>Widrige Umst&#228;nde fordern dich heraus?</p>
+							<p />
+							<p>Dann bist du bei uns genau richtig! Melde dich freiwillig als Abenteurer in einer fernen Welt, und erhalte am Ende deiner Dienstzeit einen saftigen Lohn in H&#246;he von 250 Gold &#8211; oder lasse ihn dir bereits w&#228;hrend deiner Abwesenheit anteilig an deine Familie auszahlen!</p>
+							<p />
+							<p>Der K&#246;nig z&#228;hlt auf dich!</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Flugblatt aus der &#228;u&#223;eren Welt, um Abenteurer f&#252;r die Monsterwelt anzuheuern. Kann als Fluff an die Spieler ausgeteilt werden. Ist erstmal nur ein erster Entwurf, da kann man sprachlich sicher noch vieles verbessern.</p>
+						</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Flugblatt in Mintiqa Kitaba</text>
+					</id-00004>
+					<id-00005>
+						<blocktype type="string">image</blocktype>
+						<caption type="string">Flugblatt</caption>
+						<frame type="string">picture</frame>
+						<image type="image">
+							<allowplayerdrawing>on</allowplayerdrawing>
+							<layers>
+								<layer>
+									<name>Flugblatt.png</name>
+									<id>0</id>
+									<parentid>-1</parentid>
+									<type>image</type>
+									<bitmap>campaign/images/Flugblatt.png</bitmap>
+								</layer>
+							</layers>
+						</image>
+						<imagelink type="windowreference">
+							<class>imagewindow</class>
+							<recordname>image.id-00007</recordname>
+						</imagelink>
+						<order type="number">5</order>
+					</id-00005>
+				</blocks>
+				<name type="string">Flugblatt</name>
+			</id-00040>
+			<id-00042>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Historie</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Faction an [[Fadayiy]] griff vor 21 Jahren durch Portale mehrere Reiche der Hauptwelt an (Unter Verwendung &#34;wilder&#34; Tiere)</p>
+							<p>- Angriff wurde niedergeschmettert (vllt weil die Monster die m&#228;chtige ungeschw&#228;chte magie der menschenwelt untersch&#228;tzt haben, oder deren magie dort weniger wirkung hat?)&#160;</p>
+							<p>- Menschen drehten den Spie&#223; vor 19 Jahren um. monsterfaction wurde nahezu vollst&#228;ndig ausgel&#246;scht, nur Einzelg&#228;nger und kleine splittergruppen blieben zur&#252;ck&#160;</p>
+							<p>- menschen dringen durch portale in monsterwelt ein</p>
+							<p>- nur begrenzt oft reisen durch portal m&#246;glich, daher nur schleppende Invasion&#160;</p>
+							<p>- wertvolle ressourcen und &#228;hnliches greifbar, daher wird Invasion in monsterwelt weitergef&#252;hrt, obwohl sie sehr verlustreich ist</p>
+							<p>- Um effizient mit Ressources umgehen zu k&#246;nnen wird das Dorf mit Planwirtschaft organisiert</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">3</order>
+						<text type="string">Umgebung</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<p>- Keine Jahreszeiten</p>
+							<p>- Extreme Wetterverh&#228;ltnisse, die auch akut wechseln k&#246;nnen</p>
+						</text>
+					</id-00004>
+				</blocks>
+				<name type="string">Albariya</name>
+			</id-00042>
+			<id-00043>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<table>
+								<tr>
+									<td>
+										<b>
+											<u>Gottheit</u>
+										</b>
+									</td>
+									<td>
+										<b>
+											<u>Alignment</u>
+										</b>
+									</td>
+									<td>
+										<b>
+											<u>Dom&#228;ne</u>
+										</b>
+									</td>
+									<td>
+										<b>
+											<u>Symbol</u>
+										</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Re-Horakhty, Gott der Sonne, Herrscher der G&#246;tter</td>
+									<td>LG</td>
+									<td>Leben, Licht</td>
+									<td>Sonnenscheibe umfasst von einer Schlange</td>
+								</tr>
+								<tr>
+									<td>Anubis, Gott des Gerichts und des Todes</td>
+									<td>LN</td>
+									<td>Tod</td>
+									<td>Schwarzer Jackal</td>
+								</tr>
+								<tr>
+									<td>Apep, Gott des B&#246;sen, Feuers und der Schlangen</td>
+									<td>NE</td>
+									<td>Trickser</td>
+									<td>Brennende Schlange</td>
+								</tr>
+								<tr>
+									<td>Bast, G&#246;ttin der Katzen und der Rache</td>
+									<td>CG</td>
+									<td>Krieg</td>
+									<td>Katze</td>
+								</tr>
+								<tr>
+									<td>Bes, Gott des Gl&#252;cks und der Musik</td>
+									<td>CN</td>
+									<td>Trickser</td>
+									<td>Leier</td>
+								</tr>
+								<tr>
+									<td>Hathor, G&#246;ttin der Liebe, Musik und der M&#252;tterlichkeit</td>
+									<td>NG</td>
+									<td>Leben, Licht</td>
+									<td>Geh&#246;rnte Kuh mit Mondscheibe</td>
+								</tr>
+								<tr>
+									<td>Imhotep, Gott des Handwerks und der Medizin</td>
+									<td>NG</td>
+									<td>Wissen</td>
+									<td>Stufenpyramide</td>
+								</tr>
+								<tr>
+									<td>Isis, G&#246;ttin der Fruchtbarkeit und der Magie</td>
+									<td>NG</td>
+									<td>Wissen, Leben</td>
+									<td>Ankh und Stern</td>
+								</tr>
+								<tr>
+									<td>Nephthys, G&#246;ttin des Todes und der Trauer</td>
+									<td>CG</td>
+									<td>Tod</td>
+									<td>H&#246;rner um eine Mondscheibe</td>
+								</tr>
+								<tr>
+									<td>Osiris, Gott der Natur und der Unterwelt</td>
+									<td>LG</td>
+									<td>Leben, Natur</td>
+									<td>Gauner und Dreschflegel</td>
+								</tr>
+								<tr>
+									<td>Ptah, Gott des Handwerks, des Wissens und der Geheimnisse</td>
+									<td>LN</td>
+									<td>Wissen</td>
+									<td>Bulle</td>
+								</tr>
+								<tr>
+									<td>Set, Gott der Dunkelheit und der W&#252;stenst&#252;rme</td>
+									<td>CE</td>
+									<td>Tod, Sturm, Trickser</td>
+									<td>Eingerollte Cobra</td>
+								</tr>
+								<tr>
+									<td>Sobek, Gott des Wassers und der Krokodile</td>
+									<td>LE</td>
+									<td>Natur, Sturm</td>
+									<td>Krokodilskopf mit H&#246;rnern und Federn</td>
+								</tr>
+								<tr>
+									<td>Thoth, Gott des Wissens und der Weisheit</td>
+									<td>N</td>
+									<td>Wissen</td>
+									<td>Ibis</td>
+								</tr>
+							</table>
+						</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">header</blocktype>
+						<order type="number">1</order>
+						<text type="string">Pantheon</text>
+					</id-00002>
+				</blocks>
+				<locked type="number">1</locked>
+				<name type="string">Götter des Multiversum</name>
+			</id-00043>
+			<id-00044>
+				<blocks />
+				<name type="string">Hauptsphäre</name>
+			</id-00044>
+			<id-00045>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Hafen</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Hafen (Steg und zwei kleine Fischerboote f&#252;r maximal vier Mann); sp&#228;ter wird eventuell ein gr&#246;&#223;eres Schiff gebaut mit Materialien, die Spieler in Quests sammeln</p>
+							<p>- Fischer organisieren sich im Fischerverband</p>
+							<p>- Schiffsbauer organisieren sich in der Handwerksgilde</p>
+							<p>- Das Milit&#228;r bewacht den Hafen</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Hafen</name>
+			</id-00045>
+			<id-00046>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Handwerksgilde</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<linklist>
+								<link class="npc" recordname="npc.id-00009">Leiterin</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Handwerksgilde</name>
+			</id-00046>
+			<id-00047>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Neu-Galea</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Die Kolonie von Mintiqa Kitaba in Albariya</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Neu-Galea</name>
+			</id-00047>
+			<id-00048>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Abenteuergilde</text>
+					</id-00001>
+					<id-00003>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Questboard am Gildenhaus</p>
+							<p>- Durch Quests k&#246;nnen Marken gesammelt werden, die gegen Ausr&#252;stung eingetauscht werden k&#246;nnen</p>
+							<p>- Erst seit Kurzem (&#60;1Jahr) in der Stadt vertreten</p>
+							<p />
+							<h>Personen:</h>
+							<linklist>
+								<link class="npc" recordname="npc.id-00005">Lagermeisterin</link>
+								<link class="npc" recordname="npc.id-00006">Questgeber</link>
+								<link class="npc" recordname="npc.id-00007">Vorstand</link>
+							</linklist>
+						</text>
+					</id-00003>
+				</blocks>
+				<name type="string">Abenteuergilde</name>
+			</id-00048>
+			<id-00049>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Forschungsinstitut</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Forscher Untersuchen Flora und Fauna</p>
+							<p>- Spieler k&#246;nnen ihnen Pflanzen oder Monsterteile holen, um ein &#246;ffentliches Lexikon zu erweitern und Schwachstellen der Monster zu identifizieren</p>
+							<p>- Erst seit Kurzem (1-2 Jahre) in der Stadt vertreten</p>
+							<p />
+							<linklist>
+								<link class="npc" recordname="npc.id-00008">Leiterin</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Forschungsinstitut</name>
+			</id-00049>
+			<id-00050>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Fischerverband</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Nicht in der Regierung vertreten; sind daf&#252;r aber im Bauernverband vertreten und k&#246;nnen so unter Umst&#228;nden ihre Interessen durchsetzen.</p>
+							<p />
+							<linklist>
+								<link class="npc" recordname="npc.id-00004">Vorstand</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Fischerverband</name>
+			</id-00050>
+			<id-00051>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Militär</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<h>Personen</h>
+							<linklist>
+								<link class="npc" recordname="npc.id-00010">Oberst-General</link>
+								<link class="npc" recordname="npc.id-00011">Vertreterin im Senat</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Militär</name>
+			</id-00051>
+			<id-00052>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Senat</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">header</blocktype>
+						<order type="number">3</order>
+						<text type="string">Organisationen mit Sitz im Senat</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<linklist>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00046">Handwerksgilde</link>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00048">Abenteuergilde</link>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00051">Milit&#228;r</link>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00049">Forschungsinstitut</link>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00054">Bauernverband</link>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00056">Repr&#228;sentanten von Mintiqa Kitaba</link>
+							</linklist>
+						</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<linklist>
+								<link class="npc" recordname="npc.id-00003">Vorsitzende</link>
+							</linklist>
+						</text>
+					</id-00004>
+				</blocks>
+				<name type="string">Senat</name>
+			</id-00052>
+			<id-00054>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Baerunverband</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Nahrungsbeschaffung: Bauern, Fischer</p>
+							<p />
+							<linklist>
+								<link class="npc" recordname="npc.id-00013">Vorstand</link>
+							</linklist>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Bauernverband</name>
+			</id-00054>
+			<id-00055>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Kirchenrat</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">header</blocktype>
+						<order type="number">3</order>
+						<text type="string">Vertretene Religionen in der Stadt</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<linklist>
+								<link class="referencemanualpage" recordname="reference.refmanualdata.id-00043">Alle aus den Pantheon</link>
+							</linklist>
+						</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<linklist>
+								<link class="npc" recordname="npc.id-00012">Vorsitzende</link>
+							</linklist>
+						</text>
+					</id-00004>
+				</blocks>
+				<name type="string">Kirchenrat</name>
+			</id-00055>
+			<id-00056>
+				<blocks />
+				<name type="string">Repräsentanten von Mintiqa Kitaba</name>
+			</id-00056>
+			<id-00057>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Ökosystem</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>In der Welt ist eine strange Magie vorhanden, die ein komplexes &#214;kosystem hervorgebracht hat. Jedes Lebewesen der Sph&#228;re hat einen kleinen oder gro&#223;en Teil dieser Magie inne. Wenn ein Lebewesen stirbt, sickert dessen Blut, und damit die Magie in die Erde. Pflanzen ziehen die Magie wieder aus dem Boden. Pflanzenfresser nehmen ihre Magie durch Nahrungsaufnahme von Pflanzen auf. Raubtiere/Raubmonster nehmen die Magie durch den Verzehr anderer Monster auf.</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">header</blocktype>
+						<order type="number">3</order>
+						<text type="string">Magiegewitter</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<p>Wenn das Blut erhitzt wird, steigt ein Teil der Magie in die Atmosph&#228;re auf. Auf nat&#252;rlichem Weg kommt dies in hei&#223;en Quellen, W&#252;sten, Vulkanen und dem Meer vor. Es kann aber auch durch das Erhitzen &#252;ber dem Feuer k&#252;nstlich herbeigef&#252;hrt werden.</p>
+							<p>Die Magie in der Atmosph&#228;re ruft starke, unvorhersehbare Wetterph&#228;nomene und Magiegewitter hervor.</p>
+						</text>
+					</id-00004>
+				</blocks>
+				<name type="string">Ökosystem</name>
+			</id-00057>
+			<id-00058>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Namensschema</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>- Forscher benennen Monster, Pflanzen und Erze aus dem Glossar nach einem bestimmten Schema</p>
+							<p>- Namen von Stra&#223;en, Pl&#228;tzen, Geb&#228;uden, Tavernen, Gilden werden von den B&#252;rgern benannt. Diese stammen aus vielen verschiedenen Kulturr&#228;umen; daher sind die Namen teilweise sehr verschieden</p>
+							<p>- Sprachr&#228;ume: Deutsch, Arabisch</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Namensschema</name>
+			</id-00058>
+			<id-00059>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Story</text>
+					</id-00001>
+					<id-00003>
+						<blocktype type="string">header</blocktype>
+						<order type="number">2</order>
+						<text type="string">Plot arcs</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">3</order>
+						<text type="formattedtext">
+							<linklist>
+								<link class="encounter" recordname="encounter.id-00001">Story: Nachtmahr</link>
+								<link class="encounter" recordname="encounter.id-00002">Story: Verbotene Insel</link>
+							</linklist>
+						</text>
+					</id-00004>
+					<id-00005>
+						<blocktype type="string">header</blocktype>
+						<order type="number">4</order>
+						<text type="string">Ideen  für Plotarcs</text>
+					</id-00005>
+					<id-00006>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">5</order>
+						<text type="formattedtext">
+							<p>- Kampf gegen Urmonster (vermutlich sehr, sehr sp&#228;t, evtl als letztes?) Dar&#252;ber w&#252;rde nur noch die Gottheit stehen</p>
+							<p>- Antagonist aus der Stadt missbraucht das Portal, zB zum Schmuggeln</p>
+							<p>- Spieler treffen auf Menschen aus einer anderen Stadt</p>
+						</text>
+					</id-00006>
+				</blocks>
+				<name type="string">Story</name>
+			</id-00059>
+			<id-00060>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Mysteries</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Schaffen spannung, werden nicht sofort aufgel&#246;st und k&#246;nnen im Zusammenhang mit der [[Kampagnenstory; War of Albariya]] stehen</p>
+							<p>- Urmonster: zB legt ein Erdrutsch einen riesigen Knochen frei. Dieser hat vorerst keine weitere Bedeutung; analysieren die Forscher ihn jedoch, stellt sich heraus, dass er sehr &#228;hnlich zu dem Kopf in der Stadt ist</p>
+							<p>- Mysteri&#246;ses Licht bei den Bergen wird entdeckt, ist jedoch zun&#228;chst unerreichbar&#160;</p>
+							<p>- Das Ger&#252;cht geht um, dass die Barriere kleiner wird (grund:weil jemand das Portal missbraucht?)&#160;</p>
+							<p>- Spieler treffen auf andere menschen, ohne zu wissen, dass diese aus einem anderen dorf stammen</p>
+						</text>
+					</id-00002>
+				</blocks>
+				<name type="string">Mysteries</name>
+			</id-00060>
+			<id-00061>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Quests</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">3</order>
+						<text type="formattedtext">
+							<p>- Zu Beginn vor allem simple oneshots ohne komplizierte backstory, zB fetch quests und escort missions</p>
+							<p>- Eventuell ein paar kleine sachen droppen, die keine gro&#223;e Relevanz haben&#160;</p>
+							<p>- Monster und widrige natur sind Hauptgegner</p>
+							<p>- Story entwickelt sich erst sp&#228;ter, oder wenn Spieler Eigeninteresse entwickeln&#160;</p>
+							<p>- Gegen ende treten zunehmend moralische konflikte und Interessenskonflikte mit anderen Menschen in den Vordergrund&#160;</p>
+							<p>- Forscherdrang und Eigeninitiative wird belohnt</p>
+							<p>- Missionen sind nur handwavy gebalanced, spieler k&#246;nnen sterben</p>
+						</text>
+					</id-00002>
+					<id-00004>
+						<blocktype type="string">header</blocktype>
+						<order type="number">2</order>
+						<text type="string">Konzept</text>
+					</id-00004>
+					<id-00005>
+						<blocktype type="string">header</blocktype>
+						<order type="number">4</order>
+						<text type="string">Grobe Ideen</text>
+					</id-00005>
+					<id-00006>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">5</order>
+						<text type="formattedtext">
+							<p>- Miner oder Holzf&#228;ller begleiten</p>
+							<p>- Rettungsmissionen</p>
+							<p>- Privat finanzierte Erkundungen</p>
+							<p>- Einstieg in die Welt indem die Spieler die &#34;Ankunft&#34; durchs Portal spielen</p>
+						</text>
+					</id-00006>
+				</blocks>
+				<name type="string">Quests</name>
+			</id-00061>
+			<id-00062>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Regelbesonderheiten</text>
+					</id-00001>
+					<id-00004>
+						<blocktype type="string">header</blocktype>
+						<order type="number">2</order>
+						<text type="string">Regeneration</text>
+					</id-00004>
+					<id-00005>
+						<blocktype type="string">header</blocktype>
+						<order type="number">4</order>
+						<text type="string">Leveling</text>
+					</id-00005>
+					<id-00006>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">5</order>
+						<text type="formattedtext">
+							<p>XP-Leveling mit grobem XP wert an den Quests und optionalen Zielen die wiederum XP geben</p>
+						</text>
+					</id-00006>
+					<id-00007>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">3</order>
+						<text type="formattedtext">
+							<p>- Longrest: 1 Woche ungest&#246;rt an einem &#8220;sicheren Ort&#8221; Ruhe</p>
+							<p>- Shortrest: 6 Stunden ungest&#246;rter schlaf (nur einmal pro 24h) (quasi der alte Longrest)</p>
+						</text>
+					</id-00007>
+				</blocks>
+				<name type="string">Regelbesonderheiten</name>
+			</id-00062>
+			<id-00063>
+				<blocks>
+					<id-00001>
+						<blocktype type="string">header</blocktype>
+						<frame type="string">sidebar</frame>
+						<order type="number">1</order>
+						<text type="string">Portal</text>
+					</id-00001>
+					<id-00002>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">2</order>
+						<text type="formattedtext">
+							<p>Alle 30 Tage l&#228;sst sich ein Portal zu einem beliebigen aber bekannten Ort mit Hilfe von Latifa Albariya erzeugen.</p>
+							<p>Gr&#246;&#223;e: Rund Radius ca. 2m</p>
+							<p>Dauer: exakt 5min</p>
+							<p />
+							<p>Kommunikation nur m&#246;glich w&#228;hrend das Portal offen ist</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<blocktype type="string">header</blocktype>
+						<order type="number">3</order>
+						<text type="string">Material das durch das Potal gebracht wird</text>
+					</id-00003>
+					<id-00004>
+						<blocktype type="string">singletext</blocktype>
+						<order type="number">4</order>
+						<text type="formattedtext">
+							<table>
+								<tr>
+									<td>
+										<b>nach Neu-Galea</b>
+									</td>
+									<td>
+										<b>aus Neu-Galea</b>
+									</td>
+								</tr>
+								<tr>
+									<td>Essen</td>
+									<td>Verletzte</td>
+								</tr>
+								<tr>
+									<td>Wein</td>
+									<td>Absolventen (wenige)</td>
+								</tr>
+								<tr>
+									<td>Medizin</td>
+									<td>Anfragen</td>
+								</tr>
+								<tr>
+									<td>neue Bewohner</td>
+									<td>Berichte</td>
+								</tr>
+								<tr>
+									<td>Anweisungen</td>
+									<td>Plantagen Kuppeln</td>
+								</tr>
+								<tr>
+									<td>Saatgut</td>
+								</tr>
+								<tr>
+									<td>Nutzfieh</td>
+								</tr>
+								<tr>
+									<td>Magische Gegenst&#228;nde</td>
+								</tr>
+								<tr>
+									<td>Plantagen Kuppeln</td>
+								</tr>
+							</table>
+						</text>
+					</id-00004>
+				</blocks>
+				<name type="string">Portal</name>
+			</id-00063>
+		</refmanualdata>
+		<refmanualindex>
+			<chapters>
+				<id-00002>
+					<name type="string">Universum</name>
+					<order type="number">1</order>
+					<subchapters>
+						<id-00001>
+							<name type="string">Königreiche der Hauptsphäre</name>
+							<order type="number">2</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">historie nachnamen macht sind durch zerfall h k - als eine vornamen hat noch common arabisch einzelne 400-500 viele jahren auf angelehnt stark tens gro mei jetzt ufig sprache gelehrtenspache verwendet wird staatssprache mintiqa nigreiche alte nigreich eigenes ckbesinnung r ca eingenommen deutsch zerfallen kitaba vor nach ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00004</recordname>
+									</listlink>
+									<name type="string">Mintiqa Kitaba</name>
+									<order type="number">1</order>
+								</id-00001>
+							</refpages>
+						</id-00001>
+						<id-00002>
+							<name type="string">Sphären</name>
+							<order type="number">1</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">historie daher deren ck durch splittergruppen k menschen m glich untersch chtige monsterfaction reiche spie extreme der zur scht weitergef dort wurde jahren angriff invasion vor wetterverh fadayiy um ein einzelg den umgehen wechseln faction sehr vllt wilder ressourcen oder weniger auch ltnisse jahreszeiten magie blieben keine unter ressources das wertvolle - weil dorf organisiert verwendung hat verlustreich nnen monsterwelt zu umgebung die wird effizient drehten und menschenwelt sie mit begrenzt albariya hrt obwohl nger greifbar hnliches akut planwirtschaft dringen griff schleppende mehrere nur wirkung tiere hauptwelt reisen niedergeschmettert portal portale monster tzt oft kleine ungeschw ausgel vollst ndig haben chte nahezu ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00042</recordname>
+									</listlink>
+									<name type="string">Albariya</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">hauptsph re</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00044</recordname>
+									</listlink>
+									<name type="string">Hauptsphäre</name>
+									<order type="number">2</order>
+								</id-00002>
+							</refpages>
+						</id-00002>
+						<id-00003>
+							<name type="string">Kosmische Zusammenhänge</name>
+							<order type="number">3</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">sobek liebe gott b hathor g rner wissens cg geh bast m re-horakhty n lg katze ng der cks ibis osiris rnte musik krieg dom sen sonne katzen licht um gerichts wissen symbol weisheit isis pantheon thoth ln brennende federn anubis sturm rme rnern stufenpyramide le krokodile magie herrscher cobra unterwelt apep eingerollte ce stenst dunkelheit schwarzer w ne tter kuh set jackal bulle geheimnisse leier multiversum fruchtbarkeit todes und ptah bes mit des mondscheibe gauner tod ttin medizin eine einer h von nephthys umfasst stern ankh krokodilskopf natur imhotep dreschflegel rache sonnenscheibe tterlichkeit feuers wassers gottheit leben handwerks cn alignment schlange gl trickser schlangen trauer</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00043</recordname>
+									</listlink>
+									<name type="string">Götter des Multiversum</name>
+									<order type="number">1</order>
+								</id-00001>
+							</refpages>
+						</id-00003>
+					</subchapters>
+				</id-00002>
+				<id-00003>
+					<name type="string">Spezies/Glossar</name>
+					<order type="number">4</order>
+					<subchapters>
+						<id-00001>
+							<name type="string">Flora</name>
+							<order type="number">1</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">platzhalter</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00005</recordname>
+									</listlink>
+									<name type="string">Platzhalter</name>
+									<order type="number">1</order>
+								</id-00001>
+							</refpages>
+						</id-00001>
+						<id-00002>
+							<name type="string">Fauna</name>
+							<order type="number">2</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">wurde jahren dass durch vor griff streifen welt nur fadayiy existieren splittergruppen dabei man lose oder individuen einigen zerschlagen jedoch glaubt einzelne faction menschenwelt noch heute die</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00028</recordname>
+									</listlink>
+									<name type="string">Fadayiy</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">albariya ndert drache zum initialen durch damals ferne nachtmahr gebirge gelangt ein nach korrumpierter im den magie der worden ver einfluss nest und angriff hnlich beim ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00029</recordname>
+									</listlink>
+									<name type="string">Korrumpierter Drache</name>
+									<order type="number">2</order>
+								</id-00002>
+								<id-00003>
+									<keywords type="string">es zb wildnis falsch sollten furchteinfl abenteurer monsters zur eines nachgesagt warnen er fr sobald um nnen dabei erw einem albtraumhaften vllt geheimnis leichen miniboss npcs - wald pflanzen schlie jedoch und beinen des ckzuf art ausgearbeitet finden ger befallen erschreckend befall von ist eindringlich daher f furcht k menschen m als ldern sogar r ausharren berleben w besser versuchen albtraumhafte selbst schlaf nicht allerlei wesen rde immer beschreibung nachtmahr tats man jeder bereits organe mehr hier oder lauern direkt teleportieren unter vorlage kann kleinere eine dann hat kommen heldengruppe bis kuppel im verlieren hrung untersuchung hnt einige vermutlich mythos auch quest geben nach weggewagt werden nachts inneren humanoider durch glicherweise idealfall glich wirklich ihn nummer eventuell todo bezeugen pfen kommunikation dass ten cht vor welt humanoide offensichtliche allerdings zu aktuell den schatten gibt mensch ihm augen sind diesem wird andere glossareintrag liegen tagelang barriere konfrontation erkennen respekt dem immun einer wochen heraus miniantagonist irgendwann kennt haben kadaver pflanzt hnlich hochgeschreckt stadtbewohner vielleicht solche aufdecken muss angst begeben gebeten geschichten bevor dedizierte konnten erholen diese zwei zugerichtet fall passende design ranken enden der musste entstellten albtraummonster einzelheiten besiegt weiter nachdem jetzt rpers verschwand tritt dieser ecke ein denen zufall higkeiten einzigartiger weit bewohner bei erscheinen abenteuern stadt ihrem vorgehen schon mutierte erster gefahr gegen wie distanzen hren magie sie gedanken bewegt nie gestalt entweder orientieren eigentlich sterben feststeht das feind rperlich teilweise je zum beseitigen geht t geplante auf koma kurze hinter mit mission pitch manche ckzubringen h geheilt aus schaffen ersten chlich form entstellt ber sehen sein wurde tiere sich spieler beschreiben wieder weniger treffen aber funkelnden nnte lich bisher monster die stellt weg lauert</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00030</recordname>
+									</listlink>
+									<name type="string">Nachtmahr</name>
+									<order type="number">3</order>
+								</id-00003>
+								<id-00004>
+									<keywords type="string">nacht auf jagd nur l lichtsensibilit sich nachtschatten bei t der die gehen sichtungen sst vergraben en schlie - tag</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00031</recordname>
+									</listlink>
+									<name type="string">Nachtschatten</name>
+									<order type="number">4</order>
+								</id-00004>
+								<id-00005>
+									<keywords type="string">parasiten einen durch k menschen m hnliche o widerstehen spieler ssen graben w nichts verlassen wesen um zu diesen meistens den stark ganzen wirt bzw rper magielosen magie sie ihr folgen opfer - eine jedem generell bei die kuppel verbreitet und gefunden consave mit alle auswirkungen pflanze einer gegenmittel finden quasi weile evtl verh renden nach als haben da gew der rfeln absaugen im befallen blutstrom</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00032</recordname>
+									</listlink>
+									<name type="string">Parasiten</name>
+									<order type="number">5</order>
+								</id-00005>
+								<id-00006>
+									<keywords type="string">oder wie somit nutzen frisst berrascht pflanzenfresser objekt tarnt kann es als eine um das indem lassen jagt aussehen pflanze zu die tarnmonster monster mimic und ein magie analog sich</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00033</recordname>
+									</listlink>
+									<name type="string">Tarnmonster</name>
+									<order type="number">6</order>
+								</id-00006>
+								<id-00007>
+									<keywords type="string">mutationen blut magie sie sickerte schlummern erschaffte standh alyakut eine andere monster noch gigantische herrschten schlie existieren die bis urmonster und katastrophe dort jahren dass millionen einer vor welt hoch konzentrierte barriere lt enthalten dabei erde der das entstanden von eingeschlossen heute lich erdinneren scht im wurden ausgel ber</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00034</recordname>
+									</listlink>
+									<name type="string">Urmonster</name>
+									<order type="number">7</order>
+								</id-00007>
+							</refpages>
+						</id-00002>
+						<id-00003>
+							<name type="string">Artefakte</name>
+							<order type="number">3</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">alle magie aufzuladen r ben kann - alyakut energie regelm ein interaktionen tigt wieder tage latifa der ig lokalen f erzeugen kuppelartefakt portal albariya mit um</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00035</recordname>
+									</listlink>
+									<name type="string">Latifa Albariya</name>
+									<order type="number">1</order>
+								</id-00001>
+							</refpages>
+						</id-00003>
+						<id-00004>
+							<name type="string">Geologie</name>
+							<order type="number">4</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">daher deren blut f muss sph als energie tr gigantische ber der ig wurde jahren jahre vielen lebeswesen vor welt reinen ein kristalles immensem kristalle wenn kristallisiert dieser unter jedoch verpuffen alyakut eine organisiert trocknet lt standh sie dass konzentrierte einigen die druck powersource hoch und re magie werden des bekannt stirbt gt das millionen diese einer tagen barriere sickert r enthalten sickerte starben jedes regelm sich nach verwendet herrschten kristall form dem erde heute gepresst zu minderwertigen lebewesen kristallisierte monster ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00036</recordname>
+									</listlink>
+									<name type="string">Alyakut</name>
+									<order type="number">1</order>
+								</id-00001>
+							</refpages>
+						</id-00004>
+					</subchapters>
+				</id-00003>
+				<id-00004>
+					<name type="string">Kampagne</name>
+					<order type="number">5</order>
+					<subchapters>
+						<id-00001>
+							<name type="string">Questboard</name>
+							<order type="number">1</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">parasiten aktueller holzbauten tzen rohdung aushang bergbauer unterst quest verteidigen</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00006</recordname>
+									</listlink>
+									<name type="string">Aktueller Aushang</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">quests abgeschlossene</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00037</recordname>
+									</listlink>
+									<name type="string">Abgeschlossene Quests</name>
+									<order type="number">2</order>
+								</id-00002>
+								<id-00003>
+									<keywords type="string">fehlgeschlagene angenommene quests nicht</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00038</recordname>
+									</listlink>
+									<name type="string">Fehlgeschlagene Quests</name>
+									<order type="number">3</order>
+								</id-00003>
+								<id-00004>
+									<keywords type="string">das forschungsinstitut proben jeglicher bittet aushang aufgefundenen genereller und pflanzen besonderer tiere um</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00039</recordname>
+									</listlink>
+									<name type="string">Genereller Aushang</name>
+									<order type="number">4</order>
+								</id-00004>
+							</refpages>
+						</id-00001>
+						<id-00002>
+							<name type="string">Handouts</name>
+							<order type="number">2</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">verursachte melde einen bist anteilig verheerende gewinn gesamte zeit ihn statt dir erster zur lange jahren uns sprachlich vor gold schrecken um nnen fluff den einzusch ehrfurchtsvoll auszahlen flugblatt ehrgeiz kitaba gekostet anzuheuern wird da bei einigen deinen und unerschrocken des albariya inhalts verbessern verwandeln gedanke diese einer heraus mintiqa saftigen familie von heute ckzuschlagen nig ist fordern ende f h freiwillig als widrige spieler sicher r u w umst z genannt nde auf fernen angriff sein jetzt hlt chance fadayiy eren ein genau richtig bereits stark ausgeteilt sch schon hn oder entwurf fu du deiner kann das hat noch hilfe monsterwelt die vieles abwesenheit man mit erstmal viele dich werden k braucht abenteurer dienstzeit erinnern der hrend aus willst nur deine doch welt sich draft wilde lasse lohn erhalte gefasst leben erregt held monster gekommen dann chtern wir nigreich</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00040</recordname>
+									</listlink>
+									<name type="string">Flugblatt</name>
+									<order type="number">1</order>
+								</id-00001>
+							</refpages>
+						</id-00002>
+						<id-00003>
+							<name type="string">Organisatorisches</name>
+							<order type="number">3</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">stammen daher b sind sprachr stra - benennen monster bestimmten pflanzen arabisch die erze uden und gilden schema dem glossar diese aus rgern ume verschieden kulturr sehr tavernen teilweise umen geb nach verschiedenen einem den pl von vielen benannt werden deutsch forscher en tzen namensschema namen</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00058</recordname>
+									</listlink>
+									<name type="string">Namensschema</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">gegen zb arcs zum schmuggeln f menschen - als das spieler noch r ber t w die urmonster stehen anderen plotarcs story missbraucht rde aus vermutlich nur nachtmahr einer auf plot sp portal stadt der treffen gottheit antagonist verbotene dar kampf ideen sehr letztes insel evtl</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00059</recordname>
+									</listlink>
+									<name type="string">Story</name>
+									<order type="number">2</order>
+								</id-00002>
+								<id-00003>
+									<keywords type="string">hnlich zb einen weitere k menschen entdeckt spannung ihn spieler der urmonster stehen riesigen er nicht cht keine zusammenhang licht um nnen forscher einem den erdrutsch analysieren sehr zun kleiner sofort dieser kampagnenstory stammen stadt schaffen - wird andere legt das hat weil jemand bei vorerst st die jedoch mysteries wissen und ein anderen mit dem stellt auf missbraucht treffen frei diese aus ohne barriere ger bergen geht ses unerreichbar chst aufgel heraus kopf portal dass war mysteri knochen bedeutung sich werden im albariya dorf zu grund ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00060</recordname>
+									</listlink>
+									<name type="string">Mysteries</name>
+									<order type="number">3</order>
+								</id-00003>
+								<id-00004>
+									<keywords type="string">paar zb e treten ende k menschen widrige simple spieler eventuell moralische story grobe keine welt interessenskonflikte konzept zu eigeninitiative hauptgegner den einstieg oneshots erst indem oder gegen sind beginn spielen konflikte vor - wird durchs ller monster ankunft nnen escort privat rettungsmissionen begleiten die holzf miner ideen und sterben anderen mit erkundungen komplizierte gro handwavy missions entwickelt missionen relevanz ohne zunehmend finanzierte sachen droppen nur sp natur fetch sich allem portal forscherdrang vordergrund kleine ter wenn belohnt backstory entwickeln ein haben gebalanced quests eigeninteresse</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00061</recordname>
+									</listlink>
+									<name type="string">Quests</name>
+									<order type="number">4</order>
+								</id-00004>
+								<id-00005>
+									<keywords type="string">ruhe ungest regeneration - sicheren ort xp die 24h und mit schlaf pro regelbesonderheiten rt alte nur der stunden wiederum geben quasi grobem optionalen den rter shortrest longrest einmal zielen leveling xp-leveling einem woche quests wert</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00062</recordname>
+									</listlink>
+									<name type="string">Regelbesonderheiten</name>
+									<order type="number">5</order>
+								</id-00005>
+							</refpages>
+						</id-00003>
+					</subchapters>
+				</id-00004>
+				<id-00005>
+					<name type="string">Albariya</name>
+					<order type="number">2</order>
+					<subchapters>
+						<id-00001>
+							<name type="string">Umgebung</name>
+							<order type="number">1</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">d sterer wald</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00007</recordname>
+									</listlink>
+									<name type="string">Düsterer Wald</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">bauwerke gr neu-galea der unter verlassene tenteils fadayiy eine stadt</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00017</recordname>
+									</listlink>
+									<name type="string">Bauwerke der Fadayiy</name>
+									<order type="number">2</order>
+								</id-00002>
+								<id-00003>
+									<keywords type="string">d rfer andere</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00018</recordname>
+									</listlink>
+									<name type="string">Andere Dörfer</name>
+									<order type="number">3</order>
+								</id-00003>
+								<id-00004>
+									<keywords type="string">gebirge ferne der</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00019</recordname>
+									</listlink>
+									<name type="string">Gebirge in der Ferne</name>
+									<order type="number">4</order>
+								</id-00004>
+								<id-00006>
+									<keywords type="string">rliche h hlen nat</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00021</recordname>
+									</listlink>
+									<name type="string">Natürliche Höhlen</name>
+									<order type="number">5</order>
+								</id-00006>
+								<id-00007>
+									<keywords type="string">wie magie f schwimmen lt enth hrt l da abgeschw zu au das ssige chten beim der symptomen konsum ngeres erhalb im ozean kuppel wasser fl</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00022</recordname>
+									</listlink>
+									<name type="string">Ozean</name>
+									<order type="number">6</order>
+								</id-00007>
+								<id-00008>
+									<keywords type="string">steppe</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00023</recordname>
+									</listlink>
+									<name type="string">Steppe</name>
+									<order type="number">7</order>
+								</id-00008>
+								<id-00009>
+									<keywords type="string">cher wurml</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00024</recordname>
+									</listlink>
+									<name type="string">Wurmlöcher</name>
+									<order type="number">8</order>
+								</id-00009>
+								<id-00010>
+									<keywords type="string">w ste</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00025</recordname>
+									</listlink>
+									<name type="string">Wüste</name>
+									<order type="number">9</order>
+								</id-00010>
+								<id-00011>
+									<keywords type="string">karte</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00026</recordname>
+									</listlink>
+									<name type="string">Karte</name>
+									<order type="number">10</order>
+								</id-00011>
+								<id-00012>
+									<keywords type="string">albariya mintiqa kolonie kitaba neu-galea von die</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00047</recordname>
+									</listlink>
+									<name type="string">Neu-Galea</name>
+									<order type="number">11</order>
+								</id-00012>
+							</refpages>
+						</id-00001>
+						<id-00003>
+							<name type="string">Besonderheiten</name>
+							<order type="number">2</order>
+							<refpages>
+								<id-00002>
+									<keywords type="string">mutiert bergauf mehrere ck hochwertigen silbriges 1-2 zeit glich blutbahn unregelm gespritzt explosive zur blutes vorhanden umgepolt physische er magische beiden kr letztendlich direktes objekte stunden um zu einem den daf materie urspr mensch nglichen ihm monat kristalle konsumiert rper zus nome essen neutralisiert sind aufeinenader form ca tzliche minderwertige ausgetrocknet - wird verlassen da trinken staub sie pflanzen bei schlie barriere steigen jedoch entzugserscheinungen unterschiedliche und reaktion extrem urmonstern des halten durchschreiten dem treffen ufigem diese aus arten wetterph normalgepolte befallen evtl manifestieren umgepolte harz wenn d flie erd landesinnere schnell ins von fluss dass wer entl zugeschrieben polt schweben bzw ist paar daher verschlungen blut b treten z formen hervor h k ssiges m als effekten rlichen irgendeiner lich latifa r ruft t tieren ig konsum bewirkt albariya interaktionen abklingen passiert selbst dann initial aber auf pro gezogen sofortige immer folgt danach nachdem minuten vom bis nachtmahr beendet konsumenten ein rke erfolgen gottgleiche unreine nicht desto sekunden mal effekte mehr fte sehr ab konsums verarbeitet oder drei wie wenigen schneller magie direkt kristall tempor line gegensatz kann zum konsumformen eine gelangt das also noch wirkung je tritt st die immense kuppel konsument im erlangen macht mit f verliehen l tod hochwertige rker werden der ersten erlangt seinem einige weniger nur auch lindert verdorben sich nach beim wieder war entstanden fangen dauert monster langsam unerkl symptome komische monstern analog fl</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00020</recordname>
+									</listlink>
+									<name type="string">Magie</name>
+									<order type="number">1</order>
+								</id-00002>
+								<id-00003>
+									<keywords type="string">nahrungsaufnahme atmosph blut einen rlichem durch hervor k sph stirbt ber steigt vorhanden boden aber auf ihre meer komplexes inne welt starke ein den raubtiere dies en teil nomene magie dieser wenn unvorhersehbare quellen ruft kann werden wird eine dessen das hat hei pflanzen hervorgebracht anderer oder die herbeigef erhitzen nstlich erde re und pflanzenfresser dem jedes es vor vulkanen sten w aus lebewesen wetterph sickert nat gro hrt auch monster kleinen der kosystem erhitzt wieder feuer strange von kommt damit weg ziehen magiegewitter verzehr raubmonster nehmen ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00057</recordname>
+									</listlink>
+									<name type="string">Ökosystem</name>
+									<order type="number">2</order>
+								</id-00003>
+							</refpages>
+						</id-00003>
+					</subchapters>
+				</id-00005>
+				<id-00006>
+					<name type="string">Neu-Galea</name>
+					<order type="number">3</order>
+					<subchapters>
+						<id-00001>
+							<name type="string">Organisationen</name>
+							<order type="number">2</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">handwerksgilde leiterin</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00046</recordname>
+									</listlink>
+									<name type="string">Handwerksgilde</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">gegen seit abenteuergilde durch questboard k marken - stung gildenhaus questgeber nnen kurzem lagermeisterin stadt vertreten personen der die 1jahr werden ausr erst eingetauscht vorstand quests gesammelt</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00048</recordname>
+									</listlink>
+									<name type="string">Abenteuergilde</name>
+									<order type="number">2</order>
+								</id-00002>
+								<id-00003>
+									<keywords type="string">oder seit erweitern 1-2 k - monster spieler monsterteile pflanzen flora der und untersuchen lexikon jahre ihnen um ffentliches forscher forschungsinstitut leiterin identifizieren vertreten holen schwachstellen ein stadt erst fauna kurzem zu nnen</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00049</recordname>
+									</listlink>
+									<name type="string">Forschungsinstitut</name>
+									<order type="number">3</order>
+								</id-00003>
+								<id-00004>
+									<keywords type="string">nden aber bauernverband ihre durchsetzen sind regierung unter k nnen r daf vertreten umst der nicht im fischerverband vorstand interessen und</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00050</recordname>
+									</listlink>
+									<name type="string">Fischerverband</name>
+									<order type="number">4</order>
+								</id-00004>
+								<id-00005>
+									<keywords type="string">milit vertreterin r im personen senat oberst-general</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00051</recordname>
+									</listlink>
+									<name type="string">Militär</name>
+									<order type="number">5</order>
+								</id-00005>
+								<id-00006>
+									<keywords type="string">milit bauernverband abenteuergilde sitz senat sentanten repr organisationen mintiqa forschungsinstitut von vorsitzende im kitaba r mit handwerksgilde</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00052</recordname>
+									</listlink>
+									<name type="string">Senat</name>
+									<order type="number">6</order>
+								</id-00006>
+								<id-00008>
+									<keywords type="string">baerunverband nahrungsbeschaffung bauernverband bauern - vorstand fischer</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00054</recordname>
+									</listlink>
+									<name type="string">Bauernverband</name>
+									<order type="number">7</order>
+								</id-00008>
+								<id-00009>
+									<keywords type="string">alle pantheon den religionen vorsitzende stadt kirchenrat aus vertretene der</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00055</recordname>
+									</listlink>
+									<name type="string">Kirchenrat</name>
+									<order type="number">8</order>
+								</id-00009>
+								<id-00010>
+									<keywords type="string">sentanten mintiqa kitaba von repr</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00056</recordname>
+									</listlink>
+									<name type="string">Repräsentanten von Mintiqa Kitaba</name>
+									<order type="number">9</order>
+								</id-00010>
+							</refpages>
+						</id-00001>
+						<id-00002>
+							<name type="string">Layout</name>
+							<order type="number">1</order>
+							<refpages>
+								<id-00001>
+									<keywords type="string">map</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00001</recordname>
+									</listlink>
+									<name type="string">Map</name>
+									<order type="number">1</order>
+								</id-00001>
+								<id-00002>
+									<keywords type="string">leistet daher organisation magischem versorgt zum zu hrlich kristall alles ffnet kann - wird eine n das ge tzt r raubt tage beitrag die jedoch magie etc nur energie mit leicht portal alle hrden nicht generelle sau leben aus ohne ersichtlichen einem seinen schlafplatz erschafft auch essen um gef barriere monstern jeder den tig daf gestellt besch werden artefakt stadt ausgeschaltet von grund ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00003</recordname>
+									</listlink>
+									<name type="string">Organisation</name>
+									<order type="number">2</order>
+								</id-00002>
+								<id-00003>
+									<keywords type="string">es einen vorgestellt erwachsen durch ergreifen antagonisten untergebracht nehmen hrig ngt negativen magischen enwelt zur dort kinder jahren dass gr verbotene keine welt chten um zu hohen einem umstand gibt ren erst minderj wei sind dieser - schlage da ja jedoch einfluss und allein hrigen aus eltern finden evtl feindlichen ltesten von gestellt rlich haben festlegen insel ist herausgefunden daher b glaub f h k menschen m aufgrund ssen r ber w nftiger z selbst tsrate alt auf ihre sein idee bereits plothook verlassen dann mindestens eren abh ein diesen dennoch davon sterben guter motivation tte dem effekte wert artikel spielern kristallen nnte beruf oder gegen wie schon fu magie konsums machthabern menschheit lange festgehalten dokumenten muss sondern eine unerwartet das hat noch den monsterwelt wurden genug die neue au zuk wissen dieses waisenhaus mit blich un geboren bescheid der mir niemanden vollwaisen ersten verbindung beginn nicht vor ich gebracht natur tun sich ses portal nnen bedeuted genau gefasst verbotenen sie werden nat des immun bis wir mortalit</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00008</recordname>
+									</listlink>
+									<name type="string">Waisenhaus</name>
+									<order type="number">3</order>
+								</id-00003>
+								<id-00004>
+									<keywords type="string">sich kaserne befindet der die neben leuchtturm burg direkt dem</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00009</recordname>
+									</listlink>
+									<name type="string">Kaserne</name>
+									<order type="number">4</order>
+								</id-00004>
+								<id-00005>
+									<keywords type="string">das abenteuergilde befindet der abenteurergilde questboard gildenhauses sich eingang gildenhaus des</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00010</recordname>
+									</listlink>
+									<name type="string">Abenteuergilde</name>
+									<order type="number">5</order>
+								</id-00005>
+								<id-00006>
+									<keywords type="string">mehreren e der gro schmiedpersonen handwerksgilde - assoziiert schmiede mit</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00011</recordname>
+									</listlink>
+									<name type="string">Schmiede</name>
+									<order type="number">6</order>
+								</id-00006>
+								<id-00007>
+									<keywords type="string">sich linken befindet senat burg unteren stadttor ude und dem der zwischen senatsgeb</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00012</recordname>
+									</listlink>
+									<name type="string">Senat</name>
+									<order type="number">7</order>
+								</id-00007>
+								<id-00008>
+									<keywords type="string">inneren burg leuchtturms gels als leuchtet leuchtturm abenteurer befindet der landesinnere im aufs uhr mit des betrieben tageszeit meer evtl ankerpunkt sich feuer monats ins - und artefaktraum r f h keller tag</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00013</recordname>
+									</listlink>
+									<name type="string">Leuchtturm</name>
+									<order type="number">8</order>
+								</id-00008>
+								<id-00009>
+									<keywords type="string">gef forschungsinstituts story forschungsinstitut genutzt verbotene von f experimente hrliche r forschern - wird insel des</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00014</recordname>
+									</listlink>
+									<name type="string">Verbotene Insel</name>
+									<order type="number">9</order>
+								</id-00009>
+								<id-00010>
+									<keywords type="string">riesentotenkopf</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00015</recordname>
+									</listlink>
+									<name type="string">Riesentotenkopf</name>
+									<order type="number">10</order>
+								</id-00010>
+								<id-00011>
+									<keywords type="string">stadttor stadttore drei neu-galea von hat</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00016</recordname>
+									</listlink>
+									<name type="string">Stadttor</name>
+									<order type="number">11</order>
+								</id-00011>
+								<id-00012>
+									<keywords type="string">steg f mann - wird hafen spieler r fischer eres kleine die zwei sammeln mit milit gr handwerksgilde ter vier fischerboote sp bewacht ein schiff schiffsbauer fischerverband den das gebaut der im materialien sich organisieren maximal eventuell quests und</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00045</recordname>
+									</listlink>
+									<name type="string">Hafen</name>
+									<order type="number">12</order>
+								</id-00012>
+								<id-00013>
+									<keywords type="string">nde gegenst essen e wird ort 5min ca rund anweisungen absolventen m l glich tage das radius 2m hilfe saatgut nutzfieh w bewohner neue anfragen medizin wenige kuppeln wein mit verletzte albariya kommunikation magische gr neu-galea aber aus gebracht hrend sich durch material nur potal offen alle zu nach portal einem dauer latifa von bekannten exakt ein beliebigen plantagen berichte erzeugen sst ist</keywords>
+									<listlink type="windowreference">
+										<class>reference_manualtextwide</class>
+										<recordname>reference.refmanualdata.id-00063</recordname>
+									</listlink>
+									<name type="string">Portal</name>
+									<order type="number">13</order>
+								</id-00013>
+							</refpages>
+						</id-00002>
+					</subchapters>
+				</id-00006>
+			</chapters>
+			<locked type="number">0</locked>
+		</refmanualindex>
+	</reference>
+	<settings>
+		<tokenlight>
+			<public />
+			<id-00001>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">15</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">45</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lamp</name>
+				<tag type="string">lamp</tag>
+			</id-00001>
+			<id-00002>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">5</bright>
+				<color type="string">FFFFFCC3</color>
+				<dim type="number">10</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Candle</name>
+				<tag type="string">candle</tag>
+			</id-00002>
+			<id-00003>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">20</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">40</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Torch</name>
+				<tag type="string">torch</tag>
+			</id-00003>
+			<id-00004>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">30</bright>
+				<color type="string">FFF9FEFF</color>
+				<dim type="number">60</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lantern</name>
+				<tag type="string">lantern</tag>
+			</id-00004>
+			<id-00005>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">15</bright>
+				<color type="string">FF000000</color>
+				<dim type="number">15</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">100</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Darkness</name>
+				<tag type="string">darkness</tag>
+			</id-00005>
+			<id-00006>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">20</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">40</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Light</name>
+				<tag type="string">light</tag>
+			</id-00006>
+		</tokenlight>
+	</settings>
+</root>
